@@ -64,9 +64,9 @@ https://bluegravity.wiki/interview/programming
   - ~~Create exclamation mark on top of him~~
 - ~~Create the player~~
   - ~~Make sure the player can have interchangeable cloths equiped (Shirts, pants and boots)~~
-  - Create idle animation (96-119)
-  - Create moving animation (60-68 Up, 69-77 Left, 78-86 Down, 87-95 Right)
-  - Move the player around using keys
+  - ~~Create idle animation (96-119)~~
+  - ~~Create moving animation (60-68 Up, 69-77 Left, 78-86 Down, 87-95 Right)~~
+  - Move the player around using keys adn animate it
   - Create interaction with the shopper, the key should be serializable and you can select the keys (default space and scape to exit)
 - Create the shopping menu
   - Create all the images of the shopping menu, remember that it has two tabs, one for buy one for sell.
