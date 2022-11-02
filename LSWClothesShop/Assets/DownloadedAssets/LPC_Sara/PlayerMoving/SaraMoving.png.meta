@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: c7fcb9093cfada6479d683233c7e6022
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SaraFullSheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2f69c96af09694096a413697971c8d
+      internalID: 2062533973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec90634ed09faf4f8f514149f24b182
+      internalID: -1088200383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33416bb737824dc40926df82ba95c354
+      internalID: -349111009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f13169c4947efb41bc502b15cadac00
+      internalID: 1456093640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b4350093c175e4f92654f67b7a1fba
+      internalID: 1188677248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bbd188722d18142a3f9b6ebcf95db1
+      internalID: -1396518670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3291a3ef1a2b8a64c86b651ee5a12695
+      internalID: -1349579292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba3b11c7f77d2943b021b05ff59072a
+      internalID: 1023903855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47edbb57f02cb0347bd1ca09a42d06af
+      internalID: -1682825550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c354f3738dfce3d4299fce27d3210375
+      internalID: 1557898083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df140757f8844d74c80b4e36e50563f5
+      internalID: 574665588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a738246a5c6e3614d80160a3055cb523
+      internalID: 436371870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a0ec49eb5a40c4aaed8beede597ac5
+      internalID: -2078761055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce211d7190fb37742a3779106592d530
+      internalID: 1315101153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b02c4e9d1f01e43b6007d03c2ee5c8
+      internalID: 1354507415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5c2e23fde08834383d3be56c062085
+      internalID: 1214434763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dd670bd3959114ca0cbe00e8be5246
+      internalID: 1954254637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4296876c21b29a14daf86ba612833615
+      internalID: 1903301094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331b7aac5ed6987439087e875a95f04c
+      internalID: -290915040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071e0c29c8ebfa140977a0d4294789a6
+      internalID: -343078018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571e297720128b84f81a0e78f1b21ecf
+      internalID: -899658265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9275138e851f05341bcad4c9610299fd
+      internalID: 1189484654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf2eedd881b82d418dabf7f7f25c973
+      internalID: -795539727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25eb524bac1bee4cad866ece5ae9728
+      internalID: -810282240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9805a0f616d3a324fab6ebf0f2e75a56
+      internalID: -11439616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff25714e63a1094387d0390950c8db3
+      internalID: -680175765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2f4ec0cebfac84a9f16f698f2bd345
+      internalID: -2035323468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec90613d1e986994399318a9567af2fd
+      internalID: 209758269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3952bd9258d424aa9fe9bb93da227f
+      internalID: 1804092641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ae203cf372a9746b7786ed6014c5c5
+      internalID: 316958062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fcdd103fc9fa1468a99869937bfe8f
+      internalID: 1701097813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ae72b15cacfab4494faf08b10fc584
+      internalID: 822111639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890a8101da7639642a5a5a88ba097237
+      internalID: -2081741636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16b1857bc2e1754f8248bcd8736ad2c
+      internalID: 1859413206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3991a51854f001c4fb1c3bd22ebd2d69
+      internalID: 540038483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraFullSheet_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d039e85dbe6732340b1e85bd0d76eea2
+      internalID: -1090756686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SaraFullSheet_163: -150601911
+      SaraFullSheet_113: 1732136444
+      SaraFullSheet_122: 59968893
+      SaraFullSheet_73: 1315101153
+      SaraFullSheet_49: 1050705159
+      SaraFullSheet_154: -978609023
+      SaraFullSheet_56: -415130318
+      SaraFullSheet_135: 158262462
+      SaraFullSheet_25: 1329597765
+      SaraFullSheet_18: 1569366233
+      SaraFullSheet_16: 1902271685
+      SaraFullSheet_65: -1396518670
+      SaraFullSheet_53: -704077539
+      SaraFullSheet_158: 1986505876
+      SaraFullSheet_4: -99718857
+      SaraFullSheet_119: 352964052
+      SaraFullSheet_160: -1040711912
+      SaraFullSheet_55: 389702813
+      SaraFullSheet_52: -1053547686
+      SaraFullSheet_84: -11439616
+      SaraFullSheet_146: -302812044
+      SaraFullSheet_70: 574665588
+      SaraFullSheet_26: 911809444
+      SaraFullSheet_177: -1421420133
+      SaraFullSheet_60: 2062533973
+      SaraFullSheet_130: 42186310
+      SaraFullSheet_95: -1090756686
+      SaraFullSheet_132: -518478547
+      SaraFullSheet_33: 365268974
+      SaraFullSheet_83: -810282240
+      SaraFullSheet_67: 1023903855
+      SaraFullSheet_108: -1601304837
+      SaraFullSheet_106: -1924558784
+      SaraFullSheet_22: 1652407097
+      SaraFullSheet_153: 515702300
+      SaraFullSheet_175: -616861658
+      SaraFullSheet_7: 1792614114
+      SaraFullSheet_13: 593329514
+      SaraFullSheet_166: -650242552
+      SaraFullSheet_85: -680175765
+      SaraFullSheet_145: -2090298632
+      SaraFullSheet_6: -757054117
+      SaraFullSheet_0: 1077719769
+      SaraFullSheet_168: 590827669
+      SaraFullSheet_94: 540038483
+      SaraFullSheet_107: 586835941
+      SaraFullSheet_128: 1415604768
+      SaraFullSheet_103: -366964428
+      SaraFullSheet_71: 436371870
+      SaraFullSheet_96: 33852254
+      SaraFullSheet_148: -278249809
+      SaraFullSheet_40: -243149602
+      SaraFullSheet_125: -1169046156
+      SaraFullSheet_14: 2141617608
+      SaraFullSheet_139: 1233991435
+      SaraFullSheet_126: -1775044210
+      SaraFullSheet_2: 2035363944
+      SaraFullSheet_93: 1859413206
+      SaraFullSheet_75: 1214434763
+      SaraFullSheet_161: 1937888538
+      SaraFullSheet_134: -160631932
+      SaraFullSheet_9: 1483274734
+      SaraFullSheet_34: 736478449
+      SaraFullSheet_81: 1189484654
+      SaraFullSheet_124: -1936747188
+      SaraFullSheet_111: 1310704386
+      SaraFullSheet_44: -1254222445
+      SaraFullSheet_102: 1977674333
+      SaraFullSheet_121: -1136275116
+      SaraFullSheet_141: -540089323
+      SaraFullSheet_152: -14415823
+      SaraFullSheet_32: -1763214549
+      SaraFullSheet_131: 815725472
+      SaraFullSheet_62: -349111009
+      SaraFullSheet_10: 1625090893
+      SaraFullSheet_50: 1319216506
+      SaraFullSheet_109: -1045848370
+      SaraFullSheet_150: -742394330
+      SaraFullSheet_151: -208916925
+      SaraFullSheet_80: -899658265
+      SaraFullSheet_76: 1954254637
+      SaraFullSheet_1: 1198429887
+      SaraFullSheet_36: -782802482
+      SaraFullSheet_42: 1419392563
+      SaraFullSheet_27: -685124444
+      SaraFullSheet_82: -795539727
+      SaraFullSheet_144: -854857015
+      SaraFullSheet_79: -343078018
+      SaraFullSheet_167: 2101205356
+      SaraFullSheet_105: 9995829
+      SaraFullSheet_51: -366099164
+      SaraFullSheet_29: -2038420227
+      SaraFullSheet_15: 2050019234
+      SaraFullSheet_137: -291719650
+      SaraFullSheet_157: -864792355
+      SaraFullSheet_30: 1645102972
+      SaraFullSheet_3: 911496067
+      SaraFullSheet_110: -1840411975
+      SaraFullSheet_155: 139386927
+      SaraFullSheet_38: 262694403
+      SaraFullSheet_159: -819663515
+      SaraFullSheet_63: 1456093640
+      SaraFullSheet_48: -1490781
+      SaraFullSheet_104: 1411011281
+      SaraFullSheet_127: 293945528
+      SaraFullSheet_173: 23902215
+      SaraFullSheet_118: 799318750
+      SaraFullSheet_115: 2133364051
+      SaraFullSheet_165: -1758584491
+      SaraFullSheet_174: 1726306755
+      SaraFullSheet_72: -2078761055
+      SaraFullSheet_43: 2091863634
+      SaraFullSheet_8: -1582409607
+      SaraFullSheet_89: 316958062
+      SaraFullSheet_112: 805883017
+      SaraFullSheet_35: 885839226
+      SaraFullSheet_45: 2057577029
+      SaraFullSheet_11: -384724007
+      SaraFullSheet_138: -1807757222
+      SaraFullSheet_98: 428372608
+      SaraFullSheet_74: 1354507415
+      SaraFullSheet_129: 910150511
+      SaraFullSheet_156: -114720585
+      SaraFullSheet_31: 148245590
+      SaraFullSheet_90: 1701097813
+      SaraFullSheet_41: 151236446
+      SaraFullSheet_12: 679135774
+      SaraFullSheet_5: -1106090787
+      SaraFullSheet_147: -149050163
+      SaraFullSheet_149: -1913630170
+      SaraFullSheet_47: -1985300081
+      SaraFullSheet_142: -1485465736
+      SaraFullSheet_77: 1903301094
+      SaraFullSheet_61: -1088200383
+      SaraFullSheet_117: 142478750
+      SaraFullSheet_39: -1029877525
+      SaraFullSheet_172: -1558927533
+      SaraFullSheet_57: 563323898
+      SaraFullSheet_88: 1804092641
+      SaraFullSheet_176: -592542444
+      SaraFullSheet_37: -702791182
+      SaraFullSheet_162: 1016817220
+      SaraFullSheet_54: -1036318633
+      SaraFullSheet_68: -1682825550
+      SaraFullSheet_143: 2019499143
+      SaraFullSheet_19: -1655555294
+      SaraFullSheet_101: -2007319837
+      SaraFullSheet_133: -1533201109
+      SaraFullSheet_169: 191544887
+      SaraFullSheet_78: -290915040
+      SaraFullSheet_28: 667888820
+      SaraFullSheet_136: 976460712
+      SaraFullSheet_86: -2035323468
+      SaraFullSheet_100: -1911220134
+      SaraFullSheet_91: 822111639
+      SaraFullSheet_21: 2048590250
+      SaraFullSheet_46: 579973001
+      SaraFullSheet_171: 1972775956
+      SaraFullSheet_24: -2042696387
+      SaraFullSheet_116: -221707174
+      SaraFullSheet_114: -1866821270
+      SaraFullSheet_99: 823084248
+      SaraFullSheet_23: 835959023
+      SaraFullSheet_120: -1241962091
+      SaraFullSheet_66: -1349579292
+      SaraFullSheet_164: 1104915248
+      SaraFullSheet_20: 358905005
+      SaraFullSheet_87: 209758269
+      SaraFullSheet_17: 1528422918
+      SaraFullSheet_97: 44717607
+      SaraFullSheet_123: -1973980323
+      SaraFullSheet_170: 1423786279
+      SaraFullSheet_58: 300595296
+      SaraFullSheet_69: 1557898083
+      SaraFullSheet_92: -2081741636
+      SaraFullSheet_64: 1188677248
+      SaraFullSheet_140: 1400945451
+      SaraFullSheet_59: 460547963
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
