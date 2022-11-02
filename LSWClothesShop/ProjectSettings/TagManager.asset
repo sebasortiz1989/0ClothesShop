@@ -38,23 +38,23 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 2532889345
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: MiddleGround
-    uniqueID: 3045122689
-    locked: 0
-  - name: Player
-    uniqueID: 1437272989
+  - name: Background
+    uniqueID: 2532889345
     locked: 0
   - name: ForeGround
     uniqueID: 1554255595
     locked: 0
+  - name: Player
+    uniqueID: 1437272989
+    locked: 0
   - name: Shopper
     uniqueID: 1715323817
+    locked: 0
+  - name: MiddleGround
+    uniqueID: 3045122689
     locked: 0
   - name: UI
     uniqueID: 2402039379

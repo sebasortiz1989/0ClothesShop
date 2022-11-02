@@ -18,7 +18,8 @@
 - /////////////////////////////////////////////////////
 - https://assetstore.unity.com/packages/2d/environments/pixel-art-top-down-basic-187605
 - https://assetstore.unity.com/packages/2d/characters/fantasy-medieval-character-pack-81647
-- https://assetstore.unity.com/packages/2d/characters/ninja-sprite-sheet-free-93901
+- https://opengameart.org/content/lpc-sara
+
 
 # Game Summary
 
@@ -56,9 +57,9 @@ https://bluegravity.wiki/interview/programming
 
 # Tarefas
 
-- Create the house.
-- Insert the shopper
-  - Create iddle animation
+- ~~Create the house.~~
+- ~~Insert the shopper~~
+  - ~~Create iddle animation~~
   - Create exclamation mark on top of him
 - Create the player
   - Make sure the player can have interchangeable cloths equiped (Shirts, pants and boots)
