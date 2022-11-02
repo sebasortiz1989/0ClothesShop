@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -76,9 +76,3807 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SaraShirt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179f84aec42d3a445ad32f3ff52f2be4
+      internalID: -1191945753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36750d825bda1f440bdebdce16e495ea
+      internalID: 210555539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f63dc697b7d62468c715ef69946d23
+      internalID: -514650001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7809832ee0c39a743992a962c1156a09
+      internalID: -1879939514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af8e8250dab02f44aa71727298f5ba0
+      internalID: 1143495702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3975b1659ac3e8a4ea64eb3278473c8f
+      internalID: 1371696847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61068f44984454240aa48efd6cba0480
+      internalID: 801622601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973374d68825b9a498c89151c20483af
+      internalID: -1149511572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f973232312cbae146b8f00eea20420e1
+      internalID: -1057655642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed85e390880c9f34a9bbdbadb3ca5894
+      internalID: -1642316345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_10
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc9d90addea2cb4cbe51d20e83a7408
+      internalID: 1429626315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a94c3dd2bab6946b0208bd8d2abf48
+      internalID: -1344839173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8a5a37713275649b0d2e883af4fed6
+      internalID: -687851040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17addb31620ed0141bbe003eaf517c5a
+      internalID: -1990863252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c5bfab3d9223c4fa8834c7e928fcda
+      internalID: 2044498631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a85520176eeeb45bf78767b2e83c89
+      internalID: -716477227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1301bd3b2043a18439791df7d0eb1b24
+      internalID: 98909805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff0d51f1d6355240bffea214cef592f
+      internalID: 1643607978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_18
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf12d2f8831d164a9ecf61b006f8dd6
+      internalID: 1090838539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef7bddb5e662724d8380276eca7f73f
+      internalID: 1306130494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_20
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6cf777862979c46a787a4c18d79906
+      internalID: -2076400739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774d8770489083b4db4dfb887d3f55d1
+      internalID: -905656783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_22
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48f466f406bd1045a68c19dded9d7e4
+      internalID: 429638356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddecae2aaf52324d93a8ab86bdc3626
+      internalID: -1667450416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_24
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de4d5bf390ee4b4798170d45e6e61be
+      internalID: -965000707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_25
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a759e1514fbcc5e4cb273aa1eda72c7d
+      internalID: 1845270740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_26
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce69388bb3e3e141a8869f44bae6cc9
+      internalID: 1337046886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_27
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bda47e6543574b4ab8495eca26ba98f
+      internalID: -407709631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e988be04306bf044e8072f888dcd398b
+      internalID: 806327387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_29
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c0c7ad0af32c84d863c482666d6414
+      internalID: 898489171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_30
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5897704e50b1db040b8f66c55fbfd8a2
+      internalID: -2099339519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_31
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd643a39d871d154fb9fe1a795ffc476
+      internalID: 1768198278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_32
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b710d6829bbfa2e4d847a54adf7e887a
+      internalID: -534892390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807370dbf20797d49bca77f389ebcf22
+      internalID: -1941618014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_34
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf62c0ed553fe61448b6a317e4b2c2e8
+      internalID: -1325216544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_35
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fb44266d03d004c92f08608f9d4efd
+      internalID: 2083666911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef69e6cd86ac27a488450ba878e7fafa
+      internalID: 1633705249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e3ed0f22b9fef4eb1c4bac401d7042
+      internalID: -1452476386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_38
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9616c75bbd747c43983ed042890c940
+      internalID: -41808998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_39
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78034139d7fa50b4aaf8beb84f606ef5
+      internalID: 1639201408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_40
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267ed0f7c925f874d8be6a874da85c4b
+      internalID: 1647077139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_41
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34419398a03d37478e0575c501b73c7
+      internalID: 1041160498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_42
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d23e49b200886438e66e5d63aab935
+      internalID: 697818510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_43
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824c90a3e3d88174e8d574f1dbeaf558
+      internalID: -1635891251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd72e27459a2bc488cfe0755f954a96
+      internalID: 686249742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_45
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01c5f05ff6f7474b909137fa488e123
+      internalID: -1400261360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_46
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb77fdea2b975645b685d1289bfb4d7
+      internalID: 1473841159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_47
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caea09e16dcdb2546932d4862681295a
+      internalID: -174167802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_48
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e53c44042997f4fbca570b1a70935c
+      internalID: 1180926424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_49
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c35c1c77e48029439b7f703c068ad0c
+      internalID: 255345531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_50
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16319e123df3c141b5730b51555e1c8
+      internalID: -1787063875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_51
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcc3c140ab955944ba81817444164e1
+      internalID: -1658657802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f36d638b4922542b59a449c8beaaed
+      internalID: -618525623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_53
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66eb345a36116846a9714d4da7acd6f
+      internalID: -217836336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_54
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bd5c5b30cba1d4eb85d2bfbf3b8b74
+      internalID: 104349170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_55
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fc81f675278c24c973577efb05eba6
+      internalID: 1486380934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_56
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51cfe3d85036744ba67c3f367b42b5e
+      internalID: -200400350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_57
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30479e416f5229b4abcb2de72354be7e
+      internalID: -154727607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_58
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9937ddbdc62fd0f4b8ddc029dbb1083c
+      internalID: 755455291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_59
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e82e0810a08d6348a32bba8ddc5d8ed
+      internalID: 1420517180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009dfc84092354c43b0329a818f3500e
+      internalID: 75304326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_61
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5404abf1700e2124c98ad1d44a22fed8
+      internalID: 1571837710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_62
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b431674749ad13e44a24f509368fd540
+      internalID: 1624358172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_63
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d39d960a23496e4593713d8d82e615d
+      internalID: -227508196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_64
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332ebe6ac0a1a25459276ea1538df33c
+      internalID: -451967753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_65
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8677fe70cc6684cb5ebe24fa1e8f4d
+      internalID: 696844512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_66
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bbe262249972340ae98c96af6a5412
+      internalID: 1071179596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_67
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4b44a3a199a56499cb6fec072413d4
+      internalID: -501575900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_68
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a363764e509194192cb80976ddcf87
+      internalID: 168192567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc575a57fb01624688305b90ebcaa1f
+      internalID: -582282346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_70
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6d066c25b61874ab9ae00bb32af72b
+      internalID: -374449916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_71
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec8c6fda7046ef4ea695313ef2840f4
+      internalID: 898844823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_72
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c37aee542c273746a94ec12aee760b4
+      internalID: 963440480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_73
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26944072e2831524b8bc5f2538e25608
+      internalID: -1314448640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_74
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef297c90393ab540b78e9b88195cde6
+      internalID: -8814382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_75
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2e3c9e89b73f04fa9427caa6d21bd0
+      internalID: -1084697262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_76
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f50f265e08889458130d60fd538d83
+      internalID: 307660950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_77
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89b1d44d6cc9c944ae2bf0fc6b40264
+      internalID: 108547964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d397e319b96799468285418f48da3ee
+      internalID: 2080290931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_79
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4479948fd81208d46a3ee0ae6244b77a
+      internalID: 829497089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_80
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c814d6f68b3d59b449b8de30f4b0aa18
+      internalID: -1406093681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_81
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b0948a257f0db40a3db5317e930165
+      internalID: -1927523682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_82
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f9596826a76a44db82287868b5d55b
+      internalID: -891684184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_83
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4202776c10541141afc42476cf33706
+      internalID: -1502492383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_84
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b2d8776529efa4386c7ce088283f0e
+      internalID: 482662899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_85
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9e79db9723b6a42a21141961aab37d
+      internalID: 876846990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_86
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f03f96fc82ade344add4fea538f5079
+      internalID: -1390536376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4050c5ecc9d8f940b736430c2024e49
+      internalID: -187439183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_88
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9b63485190ded48859686b116eb8cd
+      internalID: 407951297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_89
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47082266b4adf0c4797abaec5c0c1831
+      internalID: -608231007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_90
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2786fe5f3a19741a19b22007da0361
+      internalID: 1024785314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_91
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81706c981cc0d934180b341190122a00
+      internalID: -96471715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_92
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b975a8582af3c468fcd555d10ffd2c
+      internalID: -1585006621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_93
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed15d3e690bf5248b3fbd46f31111c0
+      internalID: 1243759251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_94
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bcee81539706344a3c68c3c375983e
+      internalID: -1138023166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_95
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7aa4f4b4fdd7a459a3a479c398d9d5
+      internalID: 907840128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb6c4c650c08f04d80adde80872c6eb
+      internalID: 517901227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_97
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44105e47ec438944baf100e84b41c20f
+      internalID: 1977312561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_98
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aba2622438bf9b42a626e41bd839c4b
+      internalID: 1084143384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_99
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee927de7065e0e42a636ed0a1bd09bc
+      internalID: 389109859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_100
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d27755df88b32489ae2aad9d25177d
+      internalID: -1522908343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_101
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5df8c6ea9698c418281c23c2a8ee8d
+      internalID: -1631996427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f224427850c4f4db26f063c6865aa6
+      internalID: 2019948358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_103
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a6aca1b19d80348bf4bfb619271ee1
+      internalID: 616109649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_104
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a324f394f58354a4ea2d33c36cfa6ef6
+      internalID: 1876636925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_105
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955fc2527dcb7784aac980b487328473
+      internalID: -176656520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_106
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe54f613b2a1747be3fe1cb1602afb
+      internalID: 748856162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_107
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b81812fa91512843aeab925ef8b81d8
+      internalID: 1064926680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fa9b2fb37fd3d46a084b8ac6e02e96
+      internalID: -855709986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_109
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67efef29d25ded841babd64e53bf8a0d
+      internalID: 1899767547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_110
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bba2971c5896e45a2786de71758453
+      internalID: 1305999004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_111
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c31bd747b035642ab4f2857b7bb67d
+      internalID: 415071017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_112
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53064c6f037129842bf783062f38ba02
+      internalID: -1452877503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_113
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2f7dde2eeccf14c932b984984fb8dd
+      internalID: 89714652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bfd9e4b44f21c41975a04179504a10
+      internalID: -635987509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_115
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3dd926a18ea014cab95ed45143c6ba
+      internalID: 1472981432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_116
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7cfc039a1ab7b4b88768a3748a896c
+      internalID: 568479479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_117
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fd71ea2edeb084f99cf4424037927d
+      internalID: 848515008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_118
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e4aad1696ef2e42a6df5f72de340dc
+      internalID: -813357452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_119
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4487b2e8298e04489a9d64a16d3500c
+      internalID: 246856621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5e2a8d1441e0b4aa6dec9406ca6451
+      internalID: 1262235548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_121
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd867d38bd64dc4fac6e69868259ef1
+      internalID: 1403508819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_122
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf6e18e5cfa1614e91e44b64c9e0fa4
+      internalID: -619061353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_123
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54077068ab7c824d85da92905ad755b
+      internalID: 2111590464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_124
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531ee53cccac74e42aac4ee2afa6abac
+      internalID: 103970501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_125
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0f49f47bceee7489110b520205cf77
+      internalID: 1774511708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_126
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2efee34b80e839479d0df2907376509
+      internalID: -843261789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_127
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d1c5f152de9174aa93878546e96bae
+      internalID: -70046369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_128
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9a338a042502e44b49b751d2d2bd45
+      internalID: -436691582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_129
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be35428a4d76d84f93ab861ed1e58d6
+      internalID: -595025109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_130
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cd67ed38c5b9f4d8ec8d41fea30c4c
+      internalID: -1336589998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_131
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bee57efcad3a045ad29bfff059d09e
+      internalID: 1012611636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_132
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f423b60a0b3f244c97ea550fcc33b57
+      internalID: -233161156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59603533cfe295a42bfd5b6d91b6d05b
+      internalID: -449686682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_134
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edc21602c884cd418b90a731cea332d
+      internalID: -1504128194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_135
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9d58fc8c072d140a4995a629511a11
+      internalID: 475963462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_136
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4e825c5d294a444b0230a834f0a534
+      internalID: -1275794845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_137
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9e78fe14ea6b949a7a7a85ddbe9d4b
+      internalID: 1312795400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_138
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b2931cd90d02a4b898a4776101e3c0
+      internalID: 2079996756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_139
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2594567231356cc48953d2a371b11363
+      internalID: 434957646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_140
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf10e01ad47abd4da835b81e88dae74
+      internalID: -1737323523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_141
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8a8d4a6b1d8324db0a6aaac09b4599
+      internalID: 1608011429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_142
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc49b65229dc61f428d5ecdfee323e51
+      internalID: -692156278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_143
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1468760e0046d74a9cea7562fe8cc11
+      internalID: -1738654859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_144
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbecbe6b035fc224e951c666018ac4e1
+      internalID: -2025266839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_145
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9861d6bbb6c4942b8d08f7795841dd
+      internalID: -709634179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947934addabcd554c8b49e9b1a369f89
+      internalID: 1011657221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_147
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d51d7840044e2548abc6c979cb87049
+      internalID: -293541426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_148
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f824d6733966c2d48bfcc1dd3c3645ce
+      internalID: -2040626869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_149
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e18cc7d82badd349b64e41d3d6e3922
+      internalID: -645846302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_150
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04838234012db046ae756b9d1c5d45f
+      internalID: -1557059836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_151
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c94092637a9c584e9c9bbf9d2bfcbf0
+      internalID: -1178606120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_152
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7eb6d25df3f894e955eb2322296409
+      internalID: -1336330022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_153
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c28dbd971cb8e14db047417e5257c06
+      internalID: -1881858279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_154
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6615ba1cddf40364294a76112a2e3c36
+      internalID: -1602887261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_155
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dead688873b7b7a41a79823a4b9ada83
+      internalID: -1022548881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_156
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5fcf378e0e9394398b4bfa712c923e
+      internalID: -2135270000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_157
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304f7cb8a48e9364a8c9b1f65d3e0895
+      internalID: -1788168078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_158
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9921226467682124d800dea899f0362c
+      internalID: 658105675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a192922bd86ee44add79b7f072ac76
+      internalID: -1079630479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_160
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2803982030e9c944e88baae004b66ebd
+      internalID: 1624777103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_161
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24109dbe158131243b28530aa2b4e2c3
+      internalID: 1619162790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_162
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca80c84d92b84c74caec4f018fd145e6
+      internalID: 378659553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_163
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309f8653598cc9b44ab57dc6036e34c7
+      internalID: -1370402202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_164
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091800e221dfdbc409dc00af83b48521
+      internalID: 587048058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_165
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0e4014a118ce54caf6c6db528df98b
+      internalID: -802202129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_166
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94bd2ed61a0ced43a38c1ca2874a067
+      internalID: 45025749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_167
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca08de7b5d6f1045b7d6c05529aa3fe
+      internalID: -234384630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_168
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ce1c08d1ae6e44397245fcebd9b28d
+      internalID: -143512071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_169
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef580d3126659b14b9cb19b4cb3ed67a
+      internalID: 1215209311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_170
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9218ab5988b3f89448ece3700fcbfe5c
+      internalID: -1622615511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_171
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4476311028de46a4ea9d8a37cabf4ad3
+      internalID: -1293858244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0639ae27fa59b4992a633f53acfe7f
+      internalID: 1962019722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_173
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71036576dae630429d08f47fd4318da
+      internalID: 857435685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_174
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e649cbfa7a7f744a3e1e3a781058be
+      internalID: -989937775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_175
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfd5aff35a80ac44ba4bea06507cfce
+      internalID: -465045249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_176
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68559803e5005f646bde68f6ce3b4a83
+      internalID: 1319370050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraShirt_177
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226852a06caf9ad4ebf3dc6a364d56fd
+      internalID: -933173719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +3887,185 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SaraShirt_22: 429638356
+      SaraShirt_74: -8814382
+      SaraShirt_119: 246856621
+      SaraShirt_157: -1788168078
+      SaraShirt_67: -501575900
+      SaraShirt_91: -96471715
+      SaraShirt_103: 616109649
+      SaraShirt_45: -1400261360
+      SaraShirt_51: -1658657802
+      SaraShirt_89: -608231007
+      SaraShirt_116: 568479479
+      SaraShirt_61: 1571837710
+      SaraShirt_118: -813357452
+      SaraShirt_8: -1057655642
+      SaraShirt_169: 1215209311
+      SaraShirt_153: -1881858279
+      SaraShirt_125: 1774511708
+      SaraShirt_26: 1337046886
+      SaraShirt_5: 1371696847
+      SaraShirt_15: -716477227
+      SaraShirt_63: -227508196
+      SaraShirt_121: 1403508819
+      SaraShirt_133: -449686682
+      SaraShirt_126: -843261789
+      SaraShirt_177: -933173719
+      SaraShirt_113: 89714652
+      SaraShirt_13: -1990863252
+      SaraShirt_73: -1314448640
+      SaraShirt_139: 434957646
+      SaraShirt_98: 1084143384
+      SaraShirt_161: 1619162790
+      SaraShirt_155: -1022548881
+      SaraShirt_165: -802202129
+      SaraShirt_47: -174167802
+      SaraShirt_46: 1473841159
+      SaraShirt_106: 748856162
+      SaraShirt_122: -619061353
+      SaraShirt_105: -176656520
+      SaraShirt_23: -1667450416
+      SaraShirt_112: -1452877503
+      SaraShirt_93: 1243759251
+      SaraShirt_44: 686249742
+      SaraShirt_1: 210555539
+      SaraShirt_176: 1319370050
+      SaraShirt_128: -436691582
+      SaraShirt_130: -1336589998
+      SaraShirt_72: 963440480
+      SaraShirt_123: 2111590464
+      SaraShirt_163: -1370402202
+      SaraShirt_110: 1305999004
+      SaraShirt_158: 658105675
+      SaraShirt_81: -1927523682
+      SaraShirt_109: 1899767547
+      SaraShirt_175: -465045249
+      SaraShirt_28: 806327387
+      SaraShirt_66: 1071179596
+      SaraShirt_94: -1138023166
+      SaraShirt_0: -1191945753
+      SaraShirt_137: 1312795400
+      SaraShirt_172: 1962019722
+      SaraShirt_35: 2083666911
+      SaraShirt_6: 801622601
+      SaraShirt_79: 829497089
+      SaraShirt_101: -1631996427
+      SaraShirt_16: 98909805
+      SaraShirt_52: -618525623
+      SaraShirt_129: -595025109
+      SaraShirt_147: -293541426
+      SaraShirt_40: 1647077139
+      SaraShirt_10: 1429626315
+      SaraShirt_59: 1420517180
+      SaraShirt_154: -1602887261
+      SaraShirt_164: 587048058
+      SaraShirt_141: 1608011429
+      SaraShirt_87: -187439183
+      SaraShirt_140: -1737323523
+      SaraShirt_162: 378659553
+      SaraShirt_55: 1486380934
+      SaraShirt_65: 696844512
+      SaraShirt_82: -891684184
+      SaraShirt_166: 45025749
+      SaraShirt_36: 1633705249
+      SaraShirt_99: 389109859
+      SaraShirt_83: -1502492383
+      SaraShirt_32: -534892390
+      SaraShirt_2: -514650001
+      SaraShirt_17: 1643607978
+      SaraShirt_149: -645846302
+      SaraShirt_80: -1406093681
+      SaraShirt_39: 1639201408
+      SaraShirt_70: -374449916
+      SaraShirt_88: 407951297
+      SaraShirt_171: -1293858244
+      SaraShirt_50: -1787063875
+      SaraShirt_143: -1738654859
+      SaraShirt_19: 1306130494
+      SaraShirt_3: -1879939514
+      SaraShirt_114: -635987509
+      SaraShirt_120: 1262235548
+      SaraShirt_30: -2099339519
+      SaraShirt_37: -1452476386
+      SaraShirt_76: 307660950
+      SaraShirt_42: 697818510
+      SaraShirt_31: 1768198278
+      SaraShirt_78: 2080290931
+      SaraShirt_14: 2044498631
+      SaraShirt_56: -200400350
+      SaraShirt_77: 108547964
+      SaraShirt_48: 1180926424
+      SaraShirt_27: -407709631
+      SaraShirt_25: 1845270740
+      SaraShirt_33: -1941618014
+      SaraShirt_85: 876846990
+      SaraShirt_34: -1325216544
+      SaraShirt_160: 1624777103
+      SaraShirt_134: -1504128194
+      SaraShirt_4: 1143495702
+      SaraShirt_167: -234384630
+      SaraShirt_7: -1149511572
+      SaraShirt_62: 1624358172
+      SaraShirt_136: -1275794845
+      SaraShirt_146: 1011657221
+      SaraShirt_115: 1472981432
+      SaraShirt_29: 898489171
+      SaraShirt_142: -692156278
+      SaraShirt_69: -582282346
+      SaraShirt_49: 255345531
+      SaraShirt_75: -1084697262
+      SaraShirt_86: -1390536376
+      SaraShirt_145: -709634179
+      SaraShirt_20: -2076400739
+      SaraShirt_58: 755455291
+      SaraShirt_21: -905656783
+      SaraShirt_148: -2040626869
+      SaraShirt_152: -1336330022
+      SaraShirt_97: 1977312561
+      SaraShirt_104: 1876636925
+      SaraShirt_127: -70046369
+      SaraShirt_41: 1041160498
+      SaraShirt_159: -1079630479
+      SaraShirt_11: -1344839173
+      SaraShirt_54: 104349170
+      SaraShirt_144: -2025266839
+      SaraShirt_102: 2019948358
+      SaraShirt_131: 1012611636
+      SaraShirt_117: 848515008
+      SaraShirt_135: 475963462
+      SaraShirt_108: -855709986
+      SaraShirt_168: -143512071
+      SaraShirt_173: 857435685
+      SaraShirt_38: -41808998
+      SaraShirt_124: 103970501
+      SaraShirt_111: 415071017
+      SaraShirt_71: 898844823
+      SaraShirt_100: -1522908343
+      SaraShirt_170: -1622615511
+      SaraShirt_60: 75304326
+      SaraShirt_174: -989937775
+      SaraShirt_9: -1642316345
+      SaraShirt_90: 1024785314
+      SaraShirt_132: -233161156
+      SaraShirt_57: -154727607
+      SaraShirt_156: -2135270000
+      SaraShirt_138: 2079996756
+      SaraShirt_43: -1635891251
+      SaraShirt_18: 1090838539
+      SaraShirt_68: 168192567
+      SaraShirt_107: 1064926680
+      SaraShirt_53: -217836336
+      SaraShirt_92: -1585006621
+      SaraShirt_96: 517901227
+      SaraShirt_64: -451967753
+      SaraShirt_84: 482662899
+      SaraShirt_150: -1557059836
+      SaraShirt_95: 907840128
+      SaraShirt_12: -687851040
+      SaraShirt_24: -965000707
+      SaraShirt_151: -1178606120
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

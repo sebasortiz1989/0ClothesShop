@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -76,9 +76,3786 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SaraLeggings_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6598c067d5e1cb418d99ed27ab2feeb
+      internalID: 330619196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf559b9c47a87b542902a143f087bd31
+      internalID: -1089425738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06363f148ad3a94eaae518ba48ba9ca
+      internalID: 294578644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eb487518a016c439b855112b34360f
+      internalID: -1488692579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14adf30f960a8534584ddfb38e2fde2a
+      internalID: -1362600203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e614f08adb5ecf146a3399d929704f26
+      internalID: 266184551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_6
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1280
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a47baa6fad43840bab1b6d43addc15
+      internalID: 241191714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54cd6050761e4243af49f9660b2be9d
+      internalID: 1716135570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a33933fdeb578d48af3ec2406ef9a04
+      internalID: -80947191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67470f26036c1f149bed7235a6d8f271
+      internalID: -519962775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_10
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fea2d5afc8c104f9a692b2d6416f4d
+      internalID: -809905041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000c977a7cd56f74cad7cd82a2c15dd3
+      internalID: 1086847329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5663dd1aee83e545887a35d4b576f5b
+      internalID: -1240595888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1216
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3457c7ab006d6ff4c8155052cae4cea3
+      internalID: 1746913895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d14bbee7741afc4c84575b466c7e8f5
+      internalID: 196417315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f904f372a12d5d9409ff83a541a3a31f
+      internalID: 1042658357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cb462ef2aa9b446b6a94e219003fef
+      internalID: 704962149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b495ad3678f80b54a849821f7356b767
+      internalID: -722993651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_18
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92da242f302a5074685cc45aca33020a
+      internalID: 2040667028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449bcfeb89b598b448eda851e91a527b
+      internalID: -1356137594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_20
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1152
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33504540f7fda1c468aeb889b17a03f0
+      internalID: 810455661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d27d61edf5ee1f4593cfe0ced07e4d5
+      internalID: -110861387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_22
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f727eaa45f7e3a6419c8f895778a219e
+      internalID: -1397281884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebfc2b8dca09234497e4a19fc83c20b
+      internalID: -759272074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_24
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c34f1349dd4b474999816303006eb9f
+      internalID: -995652370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_25
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e242ef15a6a4078459dbb19252974863
+      internalID: 1901293920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_26
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2aed9ce2d37ad4fa0698ab7529b3f6
+      internalID: 1067657701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_27
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1088
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93f04c82c3dab241ae6b1812ac2205f
+      internalID: -1590621281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a666d2810aef7904caca1397637d2f3b
+      internalID: -1034519096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_29
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c093f48d2432e41a5c4e8c0e012499
+      internalID: 1208549257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_30
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516363c989482cb4c86a71170b39ece9
+      internalID: 1533326101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_31
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc72a20ca2c00b34dac19bf5559ca4e0
+      internalID: 622353634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_32
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c8310d419dbf349b06f61f668770b2
+      internalID: -276943900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_33
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392a0f462815a724e8d67eaf49ee5d5f
+      internalID: -750077465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_34
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b751c76063c91de45af6f26bda58148f
+      internalID: -677719235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_35
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1024
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5298d7c13a33e7409e9f34c5029247c
+      internalID: -407266549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0735321ffe139f44485777335fb010d9
+      internalID: -862412386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2690fbbfe8ea1a541b6fd5bd1c40d086
+      internalID: -988420592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_38
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e122259d60ecf241be46e8aacd8c9f7
+      internalID: -1092650721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_39
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5575621d2c158894ca5ca0e55843b0f3
+      internalID: 790286362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_40
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d944bf2686c446e49947fb7cdda6529f
+      internalID: 1267671593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_41
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51898863a2f77d84b8238900d35f4c8d
+      internalID: -861078311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_42
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4685891ed2022494e87767947fa48f77
+      internalID: -933302632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_43
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 960
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d233d2f964f6da4e886e8fb964e8d76
+      internalID: -318150389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d433636f970d74a9cb0d4898006c93
+      internalID: -109578073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_45
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50eb85a88c69fe4e96d004d40301d85
+      internalID: 1529967241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_46
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c649836a555ab64c82bdc8262d6a3e2
+      internalID: -1484483131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_47
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d5506c41446d04e812ed537f83c566
+      internalID: 220003283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_48
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68c9aa34dbbb164eb98dac672e4d786
+      internalID: 1691940202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_49
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860146eed698e5a44926b72e6a50a6b4
+      internalID: -1866918057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_50
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2bec476e06bd748884177a3daa2ac1
+      internalID: 1928190004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_51
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 896
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778e7f7b7f7597b46af0225acc09b9ab
+      internalID: -1843876306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9382c0411a182cc42a16e4aed9c18701
+      internalID: 1774338755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_53
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0515b1c70ccc2944386c070d7f6a8cf8
+      internalID: 1130449024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_54
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a4a57f990c20a4490c4ce974cf8194
+      internalID: -564397629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_55
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab4fa7cb9b36c242b2824245b255a6f
+      internalID: -1537658465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_56
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156c9f0057c914042b2fd8aae40ae5b0
+      internalID: 390708604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_57
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174878e7479aba34a8770c28f293ce85
+      internalID: -1229118180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_58
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4ae8f57a5cb2f4898d6e9c2c074903
+      internalID: 1041191317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_59
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 832
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4e18f581035624580a3ff72cd52bce
+      internalID: 1284219249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647c7b7a8cc2d56469be6bb572bd7664
+      internalID: 634490399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_61
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89c95a742e92d24faf869b765a1416f
+      internalID: -1337849642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_62
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a39d30db187424c86af0bd92963203
+      internalID: 1667729539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_63
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec59d2b10f524b34f8ca348406ef86fe
+      internalID: 1467653805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_64
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0b28a7bba8b8d4182d814280d83a37
+      internalID: -905354580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_65
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4809b82aaed4d3e4696bbcd994711313
+      internalID: -381541543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_66
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1036037ea2aa24db593d5869d19daf
+      internalID: -207937562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_67
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc766e3755294845ab07d5419ab414b
+      internalID: 477165399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_68
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 768
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98680255dd3fbb41a71a36fa4a288b8
+      internalID: -1100589427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023018f1a3abb664588c144de992e663
+      internalID: 1739526005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_70
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc012ef89450337478bc29d522d32536
+      internalID: 861911331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_71
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7148344204c6bf243bdaa33d273a6997
+      internalID: 1315422302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_72
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e207d2153bf064a86e8f8a43167f06
+      internalID: 1273823404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_73
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44abc041178477f46883146e89584f9b
+      internalID: -218171005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_74
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d41aa0df204014a8249bab8b6473a0
+      internalID: 844099087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_75
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7190261ad7d5a04da66bc0a81d17248
+      internalID: -565000263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_76
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b2ce10188edf145a4006849a45936a
+      internalID: -1517365569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_77
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 704
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4ea7c9d5513764a9293e5602bd21b2
+      internalID: 1071528856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540f219a0cca38d429e10ee151b01051
+      internalID: -1572558138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_79
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50833360c52b46d4d99ded7cc6d7538e
+      internalID: -2142257160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_80
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03ccbe969816464ba54cb40c0a5dc48
+      internalID: -1431267404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_81
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f7d3d0fdd9d8949b71e2562081d98e
+      internalID: -1475626834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_82
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b22ff016e8db024e9247ddb3ef2d388
+      internalID: 287655598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_83
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ab5f2be79b909498b9ee6d37ad1ea9
+      internalID: -467556909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_84
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144bc38bb1ceeae47afac27e6499a614
+      internalID: 1763930851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_85
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ecd6cce927acf47827d9ab3faeb5d2
+      internalID: 711060000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_86
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 640
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5cfaab9a1dd4b4cb0a6b5f1a0fc26a
+      internalID: 1325488859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd96c2732b1ce147b86e72f031703aa
+      internalID: -667624551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_88
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f47d5d7b421b540b14fb8acbb1584b
+      internalID: -1368106378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_89
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad8167dde04ea74ba57a0310ce3e959
+      internalID: -1684192843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_90
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79eef635bc05c8a4396dcaef937f5721
+      internalID: -1958123794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_91
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb04028c14f59b41823bf09978bcf1c
+      internalID: -2106827057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_92
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c27196288b2f26409f5de9c7d0f9085
+      internalID: 709789302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_93
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5ce8f0df2162a4da3c0406bff7ee7a
+      internalID: 267128865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_94
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c343ea66ce8d5046b01b1743b897aed
+      internalID: 565505697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_95
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 576
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412ea1cd61d8ac498b144d959e0d5f2
+      internalID: 1019981708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac215c30fa77ce844b22ad729b459109
+      internalID: 1226141472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_97
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15aa1a52024e2845a1b34350cd65ceb
+      internalID: -1054293076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_98
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33ec630cd539014ea109eb2d05999a0
+      internalID: -151271976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_99
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d0600846901404d847728beb6acdd8
+      internalID: -1859854068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_100
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b148824ff0060254e9fe04f7a0f14bb3
+      internalID: -722655556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_101
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 512
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04eecf76beba9c4e941494d0115930e
+      internalID: 721503545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba002e4e77c4c04c80f99d1bd7f9e80
+      internalID: 990447426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_103
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a5368267c67054ebbcd63e18fac167
+      internalID: -1641416773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_104
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f13b3ed0fdaf84fa852a37de0adeb0
+      internalID: -1929762840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_105
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccbde43fdf54a844ad96f6e0aecc121
+      internalID: -470715427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_106
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91641c6920f78da4bb7a6860873b3193
+      internalID: -1728956712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_107
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 448
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9d39a5981a7c948be1d80e0397094e
+      internalID: -1039898095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f5e234ac114ef4abcb7bcb7a367872
+      internalID: -1517200067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_109
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad5472a92fc874439bb32eecbbf6526
+      internalID: -1093654461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_110
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132021cb942508641a3037bf124a6715
+      internalID: 480616288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_111
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5906ae15f06a30047b25b6750e3ba32f
+      internalID: -659573987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_112
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ae1e34a2a858d40ac7b99801e709b5
+      internalID: -1663547746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_113
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 384
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2601d4048063a9a47a68f24f2aad5624
+      internalID: -1392639189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db467c8ccdd4d0545826d0b134deba02
+      internalID: 1576107127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_115
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86604ce67219d54e9f31f111e521332
+      internalID: -1809437395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_116
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc630bfc94aa684429d8c73716b2df2c
+      internalID: -385558159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_117
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cec6e4be8085e04589968b74aab3725
+      internalID: 876741792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_118
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48df4bf77e3d2042b9b47181f179bd0
+      internalID: -1883201745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_119
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 320
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03a98703246dfb41aeb8f12cab540a7
+      internalID: 1792962608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbeadabc176715e42bc4ae356a1382c3
+      internalID: -1789272044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_121
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942560139634eda47a337028dde1b2e5
+      internalID: 441375954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_122
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e6a88551368c04784ace65926dc92a
+      internalID: -1485516024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_123
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39af18c367ae7f741b68f959fe142e37
+      internalID: 1396309347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_124
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08b4f05e352d55468bf4239be7f7fbf
+      internalID: 1842823293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_125
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece56d89348b91d4a8b6c9a3d949acf5
+      internalID: -1586186910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_126
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ba1ae3ed1d7984aae681811988fe17
+      internalID: 526206415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_127
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f869d4bb2d992284ca219d1eec48a1d0
+      internalID: 2015807347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_128
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962a38ddc60370a46b4b58bf6ae83ad5
+      internalID: -813901807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_129
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24233083457b1b48a3f08d5bd66fc01
+      internalID: -1877066849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_130
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f894db7509eab047b00b7c6b8c5556d
+      internalID: -741720132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_131
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6064e7a319f41641975658da72a275d
+      internalID: 41332458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_132
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 256
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a005ae8f0e2f649b4a9a5b5e7b7989
+      internalID: -2096420839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4650b0968f84a164f80d09be7cc924d8
+      internalID: -1455570032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_134
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181b259a7716d504dbd6407c515849b4
+      internalID: 308751574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_135
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbafa1380ff6b304bb1e9af2f07561a8
+      internalID: -1560682236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_136
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e64e72961dc584db6dea52bdfab4ee
+      internalID: -1769603008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_137
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21e56e5acc0abd4492e512604ff6990
+      internalID: -334133161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_138
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb1ffb5a35efbe428164de90afbdc35
+      internalID: -480383816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_139
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d6d506e113797428b371352079b954
+      internalID: -1527811591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_140
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70717b37469c19d4b95353f568460f91
+      internalID: 1518515470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_141
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bd3287fa89b3c4eabdf690e405deac
+      internalID: 1471374472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_142
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438a19e240d0a564888e0475005382f3
+      internalID: 1683260552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_143
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e1d7acc66f5fe4b94c16fdf82c2666
+      internalID: -516440759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_144
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbf61108ea06444bb66d5f3b5fd27fc
+      internalID: 1217263247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_145
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 192
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7589c805cf9634d8a7d17d074c24d9
+      internalID: -462978672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9bff78d1b83be43ac3bfdfc2701f59
+      internalID: 1281794429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_147
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ad1c0fa6c073c41b49e4e21f82ba44
+      internalID: 1963579459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_148
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716dc7ca02d5f734abe05f2efbb2144d
+      internalID: 751620238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_149
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70669bb8670d304d904131366574eb0
+      internalID: 1129669925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_150
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85819e0d0d1c9f4688303428976aa0d
+      internalID: 1310085876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_151
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa7f92b738fd9c47b9053cf342ab304
+      internalID: -465318038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_152
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b03782638bb6a4aa801b5d69a78cce
+      internalID: 433078834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_153
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3647911366e6149be2c37cd544ac92
+      internalID: -1593758737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_154
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0de512201c32b40a4197b05af061c7
+      internalID: 1935311150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_155
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cc3041d22a72d4d845cb4fc4c5ea23
+      internalID: 1886315802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_156
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107586abedc7f5d45b69c03b36c7b5a6
+      internalID: 2131225977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_157
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0786f03235fda74ebd27165655b3b32
+      internalID: 1693447025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_158
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 128
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82b70f0bf0a7a948b9000c3293bcc5e
+      internalID: 2050142270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9303876256d33746b8185b253b201d4
+      internalID: -448305179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_160
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4045dfa5507584a8898ae433155a0f
+      internalID: -1709416193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_161
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba3efca6c11c234e830056be3ea2eac
+      internalID: 110819872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_162
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beca22ddd23714b43b8d6cd6e90e84f9
+      internalID: -2052111669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_163
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af30b09a9c5e64faea3fdfc0e697cc
+      internalID: -295275506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_164
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef93ebc85e66d04f8dea10c8f38eca4
+      internalID: 1209193992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_165
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d7db611bd4bc74495ad274aea02b51
+      internalID: -2066835350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_166
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff0715fad1bf9247bf0de15d3d3d41b
+      internalID: 297645727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_167
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c74d114e49edb4880d3b6ada3be5f2
+      internalID: -1805760183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_168
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d87afafd85f964fab8730f4e42ce82
+      internalID: -72580382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_169
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad067827dd11bc4b8e7fb567cce06ef
+      internalID: -33034898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_170
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b39a537498643243a1a1462ae71ece2
+      internalID: 1530936679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_171
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 64
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b941717d89d10fc499b4098d490e00b8
+      internalID: 1300774286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b41441c60cb5eb44941cf0fcbf82be7
+      internalID: 872171614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_173
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae42bfbc73f8ac14eb7a8d4974dd3467
+      internalID: -900427804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_174
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee141d52cd09b1458fc120cf8078b46
+      internalID: 1971218607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_175
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f7aaaa2bc037e4a8a94598e9b599ef
+      internalID: -1889551605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SaraLeggings_176
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 63.53846
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a02af5cc99ce74dafe91e7e0634e19
+      internalID: -1847492523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +3866,184 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SaraLeggings_121: 441375954
+      SaraLeggings_171: 1300774286
+      SaraLeggings_160: -1709416193
+      SaraLeggings_90: -1958123794
+      SaraLeggings_80: -1431267404
+      SaraLeggings_3: -1488692579
+      SaraLeggings_27: -1590621281
+      SaraLeggings_11: 1086847329
+      SaraLeggings_94: 565505697
+      SaraLeggings_117: 876741792
+      SaraLeggings_53: 1130449024
+      SaraLeggings_92: 709789302
+      SaraLeggings_162: -2052111669
+      SaraLeggings_69: 1739526005
+      SaraLeggings_34: -677719235
+      SaraLeggings_89: -1684192843
+      SaraLeggings_169: -33034898
+      SaraLeggings_32: -276943900
+      SaraLeggings_68: -1100589427
+      SaraLeggings_97: -1054293076
+      SaraLeggings_103: -1641416773
+      SaraLeggings_150: 1310085876
+      SaraLeggings_45: 1529967241
+      SaraLeggings_106: -1728956712
+      SaraLeggings_111: -659573987
+      SaraLeggings_125: -1586186910
+      SaraLeggings_173: -900427804
+      SaraLeggings_120: -1789272044
+      SaraLeggings_155: 1886315802
+      SaraLeggings_131: 41332458
+      SaraLeggings_166: 297645727
+      SaraLeggings_15: 1042658357
+      SaraLeggings_29: 1208549257
+      SaraLeggings_73: -218171005
+      SaraLeggings_154: 1935311150
+      SaraLeggings_31: 622353634
+      SaraLeggings_168: -72580382
+      SaraLeggings_98: -151271976
+      SaraLeggings_39: 790286362
+      SaraLeggings_96: 1226141472
+      SaraLeggings_24: -995652370
+      SaraLeggings_110: 480616288
+      SaraLeggings_138: -480383816
+      SaraLeggings_145: -462978672
+      SaraLeggings_147: 1963579459
+      SaraLeggings_148: 751620238
+      SaraLeggings_93: 267128865
+      SaraLeggings_152: 433078834
+      SaraLeggings_76: -1517365569
+      SaraLeggings_135: -1560682236
+      SaraLeggings_161: 110819872
+      SaraLeggings_167: -1805760183
+      SaraLeggings_41: -861078311
+      SaraLeggings_99: -1859854068
+      SaraLeggings_156: 2131225977
+      SaraLeggings_5: 266184551
+      SaraLeggings_163: -295275506
+      SaraLeggings_42: -933302632
+      SaraLeggings_16: 704962149
+      SaraLeggings_101: 721503545
+      SaraLeggings_132: -2096420839
+      SaraLeggings_84: 1763930851
+      SaraLeggings_142: 1683260552
+      SaraLeggings_49: -1866918057
+      SaraLeggings_2: 294578644
+      SaraLeggings_30: 1533326101
+      SaraLeggings_81: -1475626834
+      SaraLeggings_60: 634490399
+      SaraLeggings_51: -1843876306
+      SaraLeggings_137: -334133161
+      SaraLeggings_46: -1484483131
+      SaraLeggings_175: -1889551605
+      SaraLeggings_124: 1842823293
+      SaraLeggings_52: 1774338755
+      SaraLeggings_54: -564397629
+      SaraLeggings_65: -381541543
+      SaraLeggings_157: 1693447025
+      SaraLeggings_85: 711060000
+      SaraLeggings_176: -1847492523
+      SaraLeggings_87: -667624551
+      SaraLeggings_95: 1019981708
+      SaraLeggings_12: -1240595888
+      SaraLeggings_172: 872171614
+      SaraLeggings_67: 477165399
+      SaraLeggings_71: 1315422302
+      SaraLeggings_112: -1663547746
+      SaraLeggings_9: -519962775
+      SaraLeggings_158: 2050142270
+      SaraLeggings_64: -905354580
+      SaraLeggings_136: -1769603008
+      SaraLeggings_17: -722993651
+      SaraLeggings_70: 861911331
+      SaraLeggings_43: -318150389
+      SaraLeggings_10: -809905041
+      SaraLeggings_143: -516440759
+      SaraLeggings_108: -1517200067
+      SaraLeggings_144: 1217263247
+      SaraLeggings_35: -407266549
+      SaraLeggings_139: -1527811591
+      SaraLeggings_63: 1467653805
+      SaraLeggings_91: -2106827057
+      SaraLeggings_118: -1883201745
+      SaraLeggings_123: 1396309347
+      SaraLeggings_151: -465318038
+      SaraLeggings_19: -1356137594
+      SaraLeggings_55: -1537658465
+      SaraLeggings_72: 1273823404
+      SaraLeggings_153: -1593758737
+      SaraLeggings_6: 241191714
+      SaraLeggings_133: -1455570032
+      SaraLeggings_28: -1034519096
+      SaraLeggings_8: -80947191
+      SaraLeggings_26: 1067657701
+      SaraLeggings_105: -470715427
+      SaraLeggings_33: -750077465
+      SaraLeggings_21: -110861387
+      SaraLeggings_25: 1901293920
+      SaraLeggings_47: 220003283
+      SaraLeggings_20: 810455661
+      SaraLeggings_66: -207937562
+      SaraLeggings_13: 1746913895
+      SaraLeggings_50: 1928190004
+      SaraLeggings_61: -1337849642
+      SaraLeggings_109: -1093654461
+      SaraLeggings_83: -467556909
+      SaraLeggings_129: -1877066849
+      SaraLeggings_134: 308751574
+      SaraLeggings_4: -1362600203
+      SaraLeggings_115: -1809437395
+      SaraLeggings_100: -722655556
+      SaraLeggings_146: 1281794429
+      SaraLeggings_1: -1089425738
+      SaraLeggings_114: 1576107127
+      SaraLeggings_14: 196417315
+      SaraLeggings_48: 1691940202
+      SaraLeggings_0: 330619196
+      SaraLeggings_127: 2015807347
+      SaraLeggings_62: 1667729539
+      SaraLeggings_104: -1929762840
+      SaraLeggings_44: -109578073
+      SaraLeggings_113: -1392639189
+      SaraLeggings_78: -1572558138
+      SaraLeggings_122: -1485516024
+      SaraLeggings_7: 1716135570
+      SaraLeggings_75: -565000263
+      SaraLeggings_141: 1471374472
+      SaraLeggings_18: 2040667028
+      SaraLeggings_77: 1071528856
+      SaraLeggings_38: -1092650721
+      SaraLeggings_165: -2066835350
+      SaraLeggings_74: 844099087
+      SaraLeggings_128: -813901807
+      SaraLeggings_102: 990447426
+      SaraLeggings_82: 287655598
+      SaraLeggings_149: 1129669925
+      SaraLeggings_58: 1041191317
+      SaraLeggings_36: -862412386
+      SaraLeggings_57: -1229118180
+      SaraLeggings_79: -2142257160
+      SaraLeggings_88: -1368106378
+      SaraLeggings_159: -448305179
+      SaraLeggings_164: 1209193992
+      SaraLeggings_86: 1325488859
+      SaraLeggings_140: 1518515470
+      SaraLeggings_22: -1397281884
+      SaraLeggings_174: 1971218607
+      SaraLeggings_170: 1530936679
+      SaraLeggings_40: 1267671593
+      SaraLeggings_59: 1284219249
+      SaraLeggings_116: -385558159
+      SaraLeggings_23: -759272074
+      SaraLeggings_37: -988420592
+      SaraLeggings_107: -1039898095
+      SaraLeggings_130: -741720132
+      SaraLeggings_119: 1792962608
+      SaraLeggings_56: 390708604
+      SaraLeggings_126: 526206415
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
