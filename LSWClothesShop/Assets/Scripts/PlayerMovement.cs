@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public enum FacingDirection
 {
@@ -23,11 +24,13 @@ public class PlayerMovement : MonoBehaviour
     private float _xDirection;
     private float _yDirection;
     private bool _playerMoving;
+    private bool _shopAccesed;
     private Vector2 _playerVelocity;
     private FacingDirection _facingDirection = FacingDirection.Down;
 
     [Range(2, 5)] 
     [SerializeField] float runSpeed = 4;
+    [SerializeField] KeyCode interactionKey = KeyCode.Space;
 
     private static readonly int MovingRight = Animator.StringToHash("MovingRight");
     private static readonly int MovingLeft = Animator.StringToHash("MovingLeft");
@@ -38,8 +41,9 @@ public class PlayerMovement : MonoBehaviour
     private static readonly int IdleLeft = Animator.StringToHash("IdleLeft");
     private static readonly int IdleRight = Animator.StringToHash("IdleRight");
     
-    private FacingDirection FacingDirection
+    public FacingDirection FacingDirection
     {
+        get => _facingDirection;
         set
         {
             if (_facingDirection == value && _playerMoving)
@@ -65,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
+    public bool interactingWithShopper = false;
 
     private void Awake()
     {
@@ -79,6 +84,25 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Update()
+    {
+        if (!_shopAccesed)
+        {
+            MovePlayer();
+        }
+
+        if (Input.GetKeyDown(interactionKey))
+        {
+            Debug.Log("Access shop!!!");
+            _shopAccesed = true;
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Debug.Log("Shop exited!!!");
+            _shopAccesed = false;
+        }
+    }
+
+    private void MovePlayer()
     {
         _xDirection = Input.GetAxis(Horizontal);
         _yDirection = Input.GetAxis(Vertical);
@@ -109,11 +133,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if (!_playerMoving)
-            {
-                return;
-            }
-
+            if (!_playerMoving) return;
             switch (_facingDirection)
             {
                 case FacingDirection.Down:
@@ -129,6 +149,7 @@ public class PlayerMovement : MonoBehaviour
                     _myAnimator.SetTrigger(IdleRight);
                     break;
             }
+
             _playerMoving = false;
         }
     }
