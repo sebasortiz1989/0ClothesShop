@@ -14,12 +14,11 @@
 ## Assets
 
 - https://opengameart.org/
-- https://assetstore.unity.com/packages/2d/environments/animated-2d-coins-22097#content
-- https://assetstore.unity.com/packages/2d/characters/free-2d-archers-sprites-18748#reviews
-- https://assetstore.unity.com/packages/2d/characters/fantasy-medieval-character-pack-81647#description
 - https://craftpix.net/
 - /////////////////////////////////////////////////////
-- 
+- https://assetstore.unity.com/packages/2d/environments/pixel-art-top-down-basic-187605
+- https://assetstore.unity.com/packages/2d/characters/fantasy-medieval-character-pack-81647
+- https://assetstore.unity.com/packages/2d/characters/ninja-sprite-sheet-free-93901
 
 # Game Summary
 
