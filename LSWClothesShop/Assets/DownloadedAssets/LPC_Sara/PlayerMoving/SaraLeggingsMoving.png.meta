@@ -910,7 +910,6 @@ TextureImporter:
       SaraLeggings_171: 1300774286
       SaraLeggings_160: -1709416193
       SaraLeggings_90: -1958123794
-      SaraLeggingsIdle_0: -159789838
       SaraLeggings_80: -1431267404
       SaraLeggings_3: -1488692579
       SaraLeggings_27: -1590621281
@@ -1078,9 +1077,10 @@ TextureImporter:
       SaraLeggings_59: 1284219249
       SaraLeggings_116: -385558159
       SaraLeggings_23: -759272074
+      SaraLeggingsIdle_0: -159789838
       SaraLeggings_37: -988420592
-      SaraLeggings_107: -1039898095
       SaraLeggings_130: -741720132
+      SaraLeggings_107: -1039898095
       SaraLeggings_119: 1792962608
       SaraLeggings_56: 390708604
       SaraLeggings_126: 526206415
