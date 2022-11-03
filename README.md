@@ -71,7 +71,7 @@ https://bluegravity.wiki/interview/programming
 - Create the shopping menu
   - Create all the images of the shopping menu, remember that it has two tabs, one for buy one for sell.
   - Open the shopping menu after interaction of the player and the shopper
-  - By default it ones in the buy tab, you can select an item, each item should be an scriptable object there. It has the icon, the name and the price. A hidden icon should show when the items is owned buy the player. A hidden icon should show when the item is equiped by the player.
+  - By default it once in the buy tab, you can select an item, each item should be an scriptable object there. It has the icon, the name and the price. A hidden icon should show when the items is owned buy the player. A hidden icon should show when the item is equiped by the player.
   - Categorize each item between Shits, Pants and Boots
   - Make the player able to select an item and to select a tab using the mouse.
   - Also the player should close the shop using escape or pressing the X icon.
