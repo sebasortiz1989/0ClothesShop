@@ -1,7 +1,10 @@
+using Managers;
+
 public class ManagerLocator
 {
-    public ShopManager shopManager;
-    public UIManager uImanager;
+    public WardroveManager WardroveManager;
+    public UIManager UImanager;
+    public PlayerController PlayerController;
     
     public static ManagerLocator Instance
     {

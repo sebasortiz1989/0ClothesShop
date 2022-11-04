@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 20508
+  controlID: 20755
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,10 +199,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 60.399994}
-      m_SelectedIDs: 
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 42c60000
       m_LastClickedID: 0
-      m_ExpandedIDs: 3293ffff26fbffff705f0000985f0000ae5f00000a600000146000002460000096600000
+      m_ExpandedIDs: 26fbffff705f0000985f0000ae5f00002460000096600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -334,23 +334,23 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
+    m_SelectedIDs: 42c60000
+    m_LastClickedID: 50754
     m_ExpandedIDs: ffffffff000000004062000074630000786300007a6300007c6300007e63000080630000826300008463000086630000886300008a6300008c6300008e630000906300009263000094630000966300009a630000fe630000006400000a6400007e650000166d000040a60000aac6000082c80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: WardroveManager
+      m_OriginalName: WardroveManager
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 51898
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
@@ -361,8 +361,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 42c60000
+    m_LastClickedInstanceID: 50754
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300005c800000
     m_RenameOverlay:
@@ -692,9 +692,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 10.034378, y: 0.71646285, z: 548.3969}
+    m_Target: {x: 10.774047, y: 0.655883, z: 477.3365}
     speed: 2
-    m_Value: {x: 10.034378, y: 0.71646285, z: 548.3969}
+    m_Value: {x: 10.774047, y: 0.655883, z: 477.3365}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -745,9 +745,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.267793
+    m_Target: 5.43706
     speed: 2
-    m_Value: 6.267793
+    m_Value: 5.43706
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -885,7 +885,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 24726
+  m_LastSelectedObjectID: 24422
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -905,8 +905,8 @@ MonoBehaviour:
     y: 0
     width: 344.80005
     height: 722.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}

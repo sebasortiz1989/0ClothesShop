@@ -1,17 +1,19 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class ServiceLocator : MonoBehaviour
+namespace Managers
 {
-    [SerializeField] private ShopManager shopManager;
-    [SerializeField] private UIManager uiManager;
-
-    private void Awake()
+    public class ServiceLocator : MonoBehaviour
     {
-        ManagerLocator.Instance.shopManager = shopManager;
-        ManagerLocator.Instance.uImanager = uiManager;
+        [SerializeField] private WardroveManager wardroveManager;
+        [SerializeField] private UIManager uiManager;
+        [SerializeField] private PlayerController playerController;
+
+        private void Awake()
+        {
+            ManagerLocator.Instance.WardroveManager = wardroveManager;
+            ManagerLocator.Instance.UImanager = uiManager;
+            ManagerLocator.Instance.PlayerController = playerController;
+        }
     }
 }
