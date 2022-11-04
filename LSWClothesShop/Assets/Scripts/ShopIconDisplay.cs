@@ -21,6 +21,17 @@ public class ShopIconDisplay : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        Button btn = gameObject.GetComponent<Button>();
+        btn.onClick.AddListener(TaskOnClick);
+    }
+    
+    private void TaskOnClick()
+    {
+        ManagerLocator.Instance.UImanager.SetSelectItem(gameObject);
+    }
+
     private void UpdateShopItem()
     {
         picture.sprite = shopItem.picture;

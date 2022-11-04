@@ -74,17 +74,16 @@ https://bluegravity.wiki/interview/programming
   - ~~By default it once in the buy tab, you can select an item, each item should be an scriptable object there. It has the icon, the name and the price. A hidden icon should show when the items is owned buy the player. A hidden icon should show when the item is equiped by the player.~~
   - ~~Also the player should close the shop using escape or pressing the X icon.~~
   - ~~Make the player able to select an item and to select a tab using the mouse~~
-  - Create 3 shirts, 3 leggins and 3 shoes scriptable objects
+  - ~~Create 3 shirts, 3 leggins and 3 shoes scriptable objects~~
   - Buy:
+    - ~~Also once you own an item, an icon within the item shows up.~~
+    - ~~If you equip an item, another icon within the item shows up.~~
     - Once an item is selected you can select if you want to buy it.
-    - (Maybe a pop up with are you sure you want to buy the item)
-    - Once the item is bought another button show up asking if you want to equip it.
-    - Also once you own an item, an icon within the item shows up.
-    - If you equip an item, another icon withint the item shows up.
     - Once you buy an item, the item dissapears, and it goes to the sell tab
   - Sell:
-    - Same idea as buy, it should show the selling price of you owned items (50% of buying price)
+    - ~~Same idea as buy, it should show the selling price of you owned items (50% of buying price)~~
+    - As long as you don't have the item equiped you can sell it
     - Once the item is sold, it dissapears from the menu, and it returns to the buy tab
-    - You can also equipe items from the sold tab, once you select an item with your mouse you can either sell it or wear it if it is not already equiped.
+    - You can equipe items from the sold tab, once you select an item with your mouse you can either sell it or wear it if it is not already equiped.
   - With the selected gear update the animations to show the worn items
   

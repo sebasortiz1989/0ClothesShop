@@ -1,3 +1,4 @@
+using Mono.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -11,6 +12,9 @@ public enum FacingDirection
 
 public class PlayerController : MonoBehaviour
 {
+    [Range(2, 5)] [SerializeField] float runSpeed = 4;
+    [SerializeField] KeyCode interactionKey = KeyCode.Space;
+    
     // Cached component references
     private Rigidbody2D _myRigidBody;
     private Animator _myAnimator;
@@ -26,10 +30,6 @@ public class PlayerController : MonoBehaviour
     private bool _playerMoving;
     private FacingDirection _facingDirection = FacingDirection.Down;
 
-    [Range(2, 5)] 
-    [SerializeField] float runSpeed = 4;
-    [SerializeField] KeyCode interactionKey = KeyCode.Space;
-
     private static readonly int MovingRight = Animator.StringToHash("MovingRight");
     private static readonly int MovingLeft = Animator.StringToHash("MovingLeft");
     private static readonly int MovingUp = Animator.StringToHash("MovingUp");
@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     private static readonly int IdleUp = Animator.StringToHash("IdleUp");
     private static readonly int IdleLeft = Animator.StringToHash("IdleLeft");
     private static readonly int IdleRight = Animator.StringToHash("IdleRight");
-    
+
     public FacingDirection FacingDirection
     {
         get => _facingDirection;
@@ -67,10 +67,10 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    
     public bool InteractingWithShopper { get; set; }
-    
     public bool ShopAccesed { get; set; }
+    public Collection<ShopItem> EquipedItems { get; set; } = new();
+    public Collection<ShopItem> OwnedItems { get; set; } = new();
 
     public Rigidbody2D MyRigidBody
     {
