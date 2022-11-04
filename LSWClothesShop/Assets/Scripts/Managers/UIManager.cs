@@ -63,11 +63,12 @@ namespace Managers
             iconData.sellingPrice.gameObject.SetActive(false);
             iconData.equipedIcon.gameObject.SetActive(false);
             iconData.purchasedIcon.gameObject.SetActive(false);
-            IEnumerable<ShopItem> shopItemsToRemove =
-                ManagerLocator.Instance.PlayerController.OwnedItems.Where(x => x.name == shopItem.name);
-            foreach (ShopItem item in shopItemsToRemove)
+            
+            for (var i = 0; i < ManagerLocator.Instance.PlayerController.OwnedItems.Count; i++)
             {
-                ManagerLocator.Instance.PlayerController.OwnedItems.Remove(item);
+                if (ManagerLocator.Instance.PlayerController.OwnedItems[i].name != shopItem.name) continue;
+                ManagerLocator.Instance.PlayerController.OwnedItems.RemoveAt(i);
+                i--;
             }
         }
 
@@ -96,16 +97,23 @@ namespace Managers
         
         public void BuyItem()
         {
-            if (_selectedItem != null)
-            {
-                AddNewItemToSellTab(_selectedItem.GetComponent<ShopIconDisplay>().ShopItem);
-            }
+            if (_selectedItem == null) return;
+            AddNewItemToSellTab(_selectedItem.GetComponent<ShopIconDisplay>().ShopItem);
             Destroy(_selectedItem);
         }
         
         public void SellItem()
         {
-            
+            if (_selectedItem == null) return;
+            if (!_selectedItem.GetComponent<ShopIconDisplay>().equipedIcon.IsActive())
+            {
+                AddNewItemToBuyTab(_selectedItem.GetComponent<ShopIconDisplay>().ShopItem);
+                Destroy(_selectedItem);    
+            }
+            else
+            {
+                _selectedItem = null;
+            }
         }
         
         public void EquipItem()

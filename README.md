@@ -78,12 +78,12 @@ https://bluegravity.wiki/interview/programming
   - Buy:
     - ~~Also once you own an item, an icon within the item shows up.~~
     - ~~If you equip an item, another icon within the item shows up.~~
-    - Once an item is selected you can select if you want to buy it.
-    - Once you buy an item, the item dissapears, and it goes to the sell tab
+    - ~~Once an item is selected you can select if you want to buy it.~~
+    - ~~Once you buy an item, the item dissapears, and it goes to the sell tab~~
   - Sell:
     - ~~Same idea as buy, it should show the selling price of you owned items (50% of buying price)~~
-    - As long as you don't have the item equiped you can sell it
-    - Once the item is sold, it dissapears from the menu, and it returns to the buy tab
+    - ~~As long as you don't have the item equiped you can sell it~~
+    - ~~Once the item is sold, it dissapears from the menu, and it returns to the buy tab~~
     - You can equipe items from the sold tab, once you select an item with your mouse you can either sell it or wear it if it is not already equiped.
   - With the selected gear update the animations to show the worn items
   
