@@ -1,3 +1,4 @@
+using Mono.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -9,8 +10,11 @@ public enum FacingDirection
     Right
 }
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+    [Range(2, 5)] [SerializeField] float runSpeed = 4;
+    [SerializeField] KeyCode interactionKey = KeyCode.Space;
+    
     // Cached component references
     private Rigidbody2D _myRigidBody;
     private Animator _myAnimator;
@@ -24,13 +28,7 @@ public class PlayerMovement : MonoBehaviour
     private float _xDirection;
     private float _yDirection;
     private bool _playerMoving;
-    private bool _shopAccesed;
-    private Vector2 _playerVelocity;
     private FacingDirection _facingDirection = FacingDirection.Down;
-
-    [Range(2, 5)] 
-    [SerializeField] float runSpeed = 4;
-    [SerializeField] KeyCode interactionKey = KeyCode.Space;
 
     private static readonly int MovingRight = Animator.StringToHash("MovingRight");
     private static readonly int MovingLeft = Animator.StringToHash("MovingLeft");
@@ -40,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     private static readonly int IdleUp = Animator.StringToHash("IdleUp");
     private static readonly int IdleLeft = Animator.StringToHash("IdleLeft");
     private static readonly int IdleRight = Animator.StringToHash("IdleRight");
-    
+
     public FacingDirection FacingDirection
     {
         get => _facingDirection;
@@ -69,7 +67,16 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-    public bool interactingWithShopper = false;
+    public bool InteractingWithShopper { get; set; }
+    public bool ShopAccesed { get; set; }
+    public Collection<ShopItem> EquipedItems { get; set; } = new();
+    public Collection<ShopItem> OwnedItems { get; set; } = new();
+
+    public Rigidbody2D MyRigidBody
+    {
+        get => _myRigidBody;
+        set => _myRigidBody = value;
+    }
 
     private void Awake()
     {
@@ -85,32 +92,27 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (!_shopAccesed)
+        if (!ShopAccesed)
         {
             MovePlayer();
         }
 
-        if (Input.GetKeyDown(interactionKey))
+        if (InteractingWithShopper)
         {
-            Debug.Log("Access shop!!!");
-            _shopAccesed = true;
-        }
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Debug.Log("Shop exited!!!");
-            _shopAccesed = false;
+            if (Input.GetKeyDown(interactionKey))
+            {
+                ManagerLocator.Instance.UImanager.OpenCloseShop(true);
+            }
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                ManagerLocator.Instance.UImanager.OpenCloseShop(false);
+            }
         }
     }
 
-    private void MovePlayer()
+    public void UpdatePlayerAnimation(Vector2 playerVelocity)
     {
-        _xDirection = Input.GetAxis(Horizontal);
-        _yDirection = Input.GetAxis(Vertical);
-
-        _playerVelocity = new Vector2(_xDirection, _yDirection);
-        _myRigidBody.velocity = _playerVelocity.normalized * runSpeed;
-
-        if (_playerVelocity != Vector2.zero)
+        if (playerVelocity != Vector2.zero)
         {
             if (_xDirection > 0)
             {
@@ -152,5 +154,15 @@ public class PlayerMovement : MonoBehaviour
 
             _playerMoving = false;
         }
+    }
+
+    private void MovePlayer()
+    {
+        _xDirection = Input.GetAxis(Horizontal);
+        _yDirection = Input.GetAxis(Vertical);
+
+        Vector2 playerVelocityVector = new Vector2(_xDirection, _yDirection);
+        _myRigidBody.velocity = playerVelocityVector.normalized * runSpeed;
+        UpdatePlayerAnimation(playerVelocityVector);
     }
 }
