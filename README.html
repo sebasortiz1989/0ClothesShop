@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<div align="center">
+  <h1>LSW Clothes Shop</h1>
+</div>
+<div align="center"> 
+  <img src="images/logo.png" width="100">
+</div>
+<p><strong>Table of content</strong></p>
+<ul>
+<li><a href="#game-summary">Game Summary</a></li>
+<li><a href="#characteristics">Characteristics</a></li>
+<li><a href="#tarefas">Tarefas</a></li>
+</ul>
+<h2 id="assets">Assets</h2>
+<ul>
+<li>https://opengameart.org/</li>
+<li>https://craftpix.net/</li>
+<li>/////////////////////////////////////////////////////</li>
+<li>https://assetstore.unity.com/packages/2d/environments/pixel-art-top-down-basic-187605</li>
+<li>https://assetstore.unity.com/packages/2d/characters/fantasy-medieval-character-pack-81647</li>
+<li>https://opengameart.org/content/lpc-sara</li>
+<li>https://opengameart.org/content/exclamation-quest-icon</li>
+</ul>
+<h1 id="game-summary">Game Summary</h1>
+<img src="images/shoppingUILSW.jpg" width="500">
+<ul>
+<li>Create a functional clothes shop with all of the features you imagine would be required. It should be a top-down view like Stardew Valley.</li>
+</ul>
+<img src="images/startdewValley.jpg" width="500">
+<ul>
+<li>There should be a player character that is able to walk and interact with the game world.</li>
+<li>Features required: Talking to the shopkeeper, buying/selling items, item icons, item prices as well as equipping the bought outfits. The outfits that are equipped should be visible on the character itself.</li>
+<li>You may choose your own UI that you believe is suitable for this prototype.</li>
+<li>You can use pre-made art assets or create your own for this task.</li>
+</ul>
+<p>https://bluegravity.wiki/interview/programming</p>
+<h1 id="characteristics">Characteristics</h1>
+<p><strong>The Game</strong></p>
+<ul>
+<li>The game is done within a house.</li>
+<li>The game has a shop keeper within the house, you can interact with him, when you get close to him an expression mark show on top of him meaning that you can interact with him.</li>
+</ul>
+<p><strong>The Player</strong></p>
+<ul>
+<li>The player moves around with the letters WASD, he interacts using space, he selects things within the menu using mouse, he exits menus using escape or pressing the X icon.</li>
+<li>There is a label indicating the amount of money the player has.</li>
+<li>Items Equiped should be visible to the player!</li>
+</ul>
+<p><strong>The Shop</strong></p>
+<ul>
+<li>The selling menu has two tabs, one for buys one for selling, when an item is selected a button to buy/sell appears.</li>
+<li>When you buy an item an options shows up asking you if you want to equip the item.</li>
+<li>When you enter the selling tab, it show which items you have equiped and which items are in your inventory, when you sell an items that is equiped you automatically unequipe it.</li>
+<li>There are 3 kind of items, shirts, pants and shoes.</li>
+</ul>
+<img src="images/buySellMenu.png" width="400">
+<h1 id="tarefas">Tarefas</h1>
+<ul>
+<li><s>Create the house.</s></li>
+<li><s>Insert the shopper</s>
+<ul>
+<li><s>Create iddle animation</s></li>
+<li><s>Create exclamation mark on top of him</s></li>
+</ul>
+</li>
+<li><s>Create the player</s>
+<ul>
+<li><s>Make sure the player can have interchangeable cloths equiped (Shirts, pants and boots)</s></li>
+<li><s>Create idle animation</s></li>
+<li><s>Create moving animation</s></li>
+<li><s>Move the player around using keys and animate it</s></li>
+<li><s>Create interaction with the shopper, the key should be serializable and you can select the keys (default space and scape to exit), when close to the shopper the exclamation mark appears and therefore you can interact with him.</s></li>
+</ul>
+</li>
+<li><s>Create the shopping menu</s>
+<ul>
+<li><s>Create all the images of the shopping menu, remember that it has two tabs, one for buy one for sell.</s></li>
+<li><s>Open the shopping menu after interaction of the player and the shopper</s></li>
+<li><s>By default it once in the buy tab, you can select an item, each item should be an scriptable object there. It has the icon, the name and the price. A hidden icon should show when the items is owned buy the player. A hidden icon should show when the item is equiped by the player.</s></li>
+<li><s>Also the player should close the shop using escape or pressing the X icon.</s></li>
+<li><s>Make the player able to select an item and to select a tab using the mouse</s></li>
+<li><s>Create 3 shirts, 3 leggins and 3 shoes scriptable objects</s></li>
+<li><s>Buy:</s>
+<ul>
+<li><s>Also once you own an item, an icon within the item shows up.</s></li>
+<li><s>If you equip an item, another icon within the item shows up.</s></li>
+<li><s>Once an item is selected you can select if you want to buy it.</s></li>
+<li><s>Once you buy an item, the item dissapears, and it goes to the sell tab</s></li>
+</ul>
+</li>
+<li><s>Sell:</s>
+<ul>
+<li><s>Same idea as buy, it should show the selling price of you owned items (50% of buying price)</s></li>
+<li><s>As long as you don't have the item equiped you can sell it</s></li>
+<li><s>Once the item is sold, it dissapears from the menu, and it returns to the buy tab</s></li>
+<li><s>You can equip items from the sold tab, once you select an item with your mouse you can either sell it or wear it if it is not already equiped.</s></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>With the selected gear update the animations to show the worn items</li>
+</ul>
+
+</body>
+</html>

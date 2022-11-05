@@ -86,4 +86,4 @@ https://bluegravity.wiki/interview/programming
     - ~~Once the item is sold, it dissapears from the menu, and it returns to the buy tab~~
     - ~~You can equip items from the sold tab, once you select an item with your mouse you can either sell it or wear it if it is not already equiped.~~
 - With the selected gear update the animations to show the worn items
-  
+
