@@ -30,7 +30,11 @@ namespace Managers
             gameObject.SetActive(open);
             ManagerLocator.Instance.PlayerController.ShopAccesed = open;
 
-            if (!open) return;
+            if (!open)
+            {
+                // Update Animations of cloths
+                return;
+            }
             ManagerLocator.Instance.PlayerController.MyRigidBody.velocity = Vector2.zero;
             ManagerLocator.Instance.PlayerController.UpdatePlayerAnimation(Vector2.zero);
         }
@@ -146,15 +150,15 @@ namespace Managers
             DestroyAllIconsInShoppingList();
             
             AddNewItemToBuyTab(ManagerLocator.Instance.WardroveManager.greenShirt);
-            AddNewItemToBuyTab(ManagerLocator.Instance.WardroveManager.greenPants);
             AddNewItemToBuyTab(ManagerLocator.Instance.WardroveManager.blueShoes);
             AddNewItemToBuyTab(ManagerLocator.Instance.WardroveManager.redShirt);
             AddNewItemToBuyTab(ManagerLocator.Instance.WardroveManager.redPants);
+            AddNewItemToBuyTab(ManagerLocator.Instance.WardroveManager.bluePants);
+            AddNewItemToBuyTab(ManagerLocator.Instance.WardroveManager.redShoes);
 
             AddNewItemToSellTab(ManagerLocator.Instance.WardroveManager.blueShirt, equip: true);
-            AddNewItemToSellTab(ManagerLocator.Instance.WardroveManager.bluePants, equip: true);
+            AddNewItemToSellTab(ManagerLocator.Instance.WardroveManager.greenPants, equip: true);
             AddNewItemToSellTab(ManagerLocator.Instance.WardroveManager.greenShoes, equip: true);
-            AddNewItemToSellTab(ManagerLocator.Instance.WardroveManager.redShoes, equip: false);
         }
         
         private void DestroyAllIconsInShoppingList()

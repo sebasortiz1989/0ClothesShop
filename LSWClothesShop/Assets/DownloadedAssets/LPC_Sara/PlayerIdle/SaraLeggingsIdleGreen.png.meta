@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bfb83c4f4ef51504c811df014897afc5
+guid: 10aea8b2951267343a4108a270a440d1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,12 +140,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SaraShirt_96
+      name: SaraLeggingsIdleGreen_1
       rect:
         serializedVersion: 2
         x: 0
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -154,19 +154,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eb6c4c650c08f04d80adde80872c6eb
-      internalID: 517901227
+      spriteID: d77494578bd5be54e8653a2cd53e9173
+      internalID: 1789768282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_97
+      name: SaraLeggingsIdleGreen_2
       rect:
         serializedVersion: 2
-        x: 63
+        x: 64
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -175,19 +175,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44105e47ec438944baf100e84b41c20f
-      internalID: 1977312561
+      spriteID: f4bd30e3c6e2d7741be9916c17e7358e
+      internalID: -2003034981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_98
+      name: SaraLeggingsIdleGreen_3
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -196,19 +196,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aba2622438bf9b42a626e41bd839c4b
-      internalID: 1084143384
+      spriteID: c7304e65ff110aa4f9ac0c647760589b
+      internalID: 1301059359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_99
+      name: SaraLeggingsIdleGreen_4
       rect:
         serializedVersion: 2
-        x: 189
+        x: 192
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -217,19 +217,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cee927de7065e0e42a636ed0a1bd09bc
-      internalID: 389109859
+      spriteID: de8465116ef4d4e4ebd9339912e07d95
+      internalID: 1966659160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_100
+      name: SaraLeggingsIdleGreen_5
       rect:
         serializedVersion: 2
-        x: 252
+        x: 256
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -238,19 +238,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92d27755df88b32489ae2aad9d25177d
-      internalID: -1522908343
+      spriteID: b9f75d36986ed4347bd8c010072757bd
+      internalID: -51782235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_101
+      name: SaraLeggingsIdleGreen_6
       rect:
         serializedVersion: 2
-        x: 315
+        x: 320
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -259,19 +259,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac5df8c6ea9698c418281c23c2a8ee8d
-      internalID: -1631996427
+      spriteID: 3e77c06c32afdb046a5b612f41dcdde3
+      internalID: 1447694558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_102
+      name: SaraLeggingsIdleGreen_7
       rect:
         serializedVersion: 2
         x: 0
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -280,19 +280,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9f224427850c4f4db26f063c6865aa6
-      internalID: 2019948358
+      spriteID: 5ec2b275b4961974bbf684174b2ac15b
+      internalID: 1904155441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_103
+      name: SaraLeggingsIdleGreen_8
       rect:
         serializedVersion: 2
-        x: 63
+        x: 64
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -301,19 +301,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0a6aca1b19d80348bf4bfb619271ee1
-      internalID: 616109649
+      spriteID: 5ed44a98f82cc524a8f41c73292be856
+      internalID: 391780414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_104
+      name: SaraLeggingsIdleGreen_9
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -322,19 +322,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a324f394f58354a4ea2d33c36cfa6ef6
-      internalID: 1876636925
+      spriteID: 33b25f40e6f4c254eacf79cc726f7ba6
+      internalID: 1125839656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_105
+      name: SaraLeggingsIdleGreen_10
       rect:
         serializedVersion: 2
-        x: 189
+        x: 192
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -343,19 +343,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 955fc2527dcb7784aac980b487328473
-      internalID: -176656520
+      spriteID: e883c96e9f5703648876689ac234a936
+      internalID: 1387360163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_106
+      name: SaraLeggingsIdleGreen_11
       rect:
         serializedVersion: 2
-        x: 252
+        x: 256
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -364,19 +364,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fafe54f613b2a1747be3fe1cb1602afb
-      internalID: 748856162
+      spriteID: c3568763ca584ea40907cce2c3fd77eb
+      internalID: -1280609076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_107
+      name: SaraLeggingsIdleGreen_12
       rect:
         serializedVersion: 2
-        x: 315
+        x: 320
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -385,19 +385,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b81812fa91512843aeab925ef8b81d8
-      internalID: 1064926680
+      spriteID: fcf47e96f8382644ba65b038179a428f
+      internalID: 1950743738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_108
+      name: SaraLeggingsIdleGreen_13
       rect:
         serializedVersion: 2
         x: 0
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -406,19 +406,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39fa9b2fb37fd3d46a084b8ac6e02e96
-      internalID: -855709986
+      spriteID: 5ad3f88c72eebe744a86122d69f5faf3
+      internalID: -557296844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_109
+      name: SaraLeggingsIdleGreen_14
       rect:
         serializedVersion: 2
-        x: 63
+        x: 64
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -427,19 +427,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67efef29d25ded841babd64e53bf8a0d
-      internalID: 1899767547
+      spriteID: 3fbd4756e240ee54b874b11f36c35704
+      internalID: 1424265141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_110
+      name: SaraLeggingsIdleGreen_15
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -448,19 +448,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78bba2971c5896e45a2786de71758453
-      internalID: 1305999004
+      spriteID: 24fb27b7c9d85a0448e9147484617688
+      internalID: -340787894
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_111
+      name: SaraLeggingsIdleGreen_16
       rect:
         serializedVersion: 2
-        x: 189
+        x: 192
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -469,19 +469,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03c31bd747b035642ab4f2857b7bb67d
-      internalID: 415071017
+      spriteID: be1b73cf30e4a8d4d9c6d6b95fbb122b
+      internalID: -1581029096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_112
+      name: SaraLeggingsIdleGreen_17
       rect:
         serializedVersion: 2
-        x: 252
+        x: 256
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -490,19 +490,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53064c6f037129842bf783062f38ba02
-      internalID: -1452877503
+      spriteID: d1298a91531ecd7478132253f95970eb
+      internalID: 2009613312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_113
+      name: SaraLeggingsIdleGreen_18
       rect:
         serializedVersion: 2
-        x: 315
+        x: 320
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -511,19 +511,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d2f7dde2eeccf14c932b984984fb8dd
-      internalID: 89714652
+      spriteID: 1892df94674e85943a1c6a5d1b9b5853
+      internalID: 257924317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_114
+      name: SaraLeggingsIdleGreen_19
       rect:
         serializedVersion: 2
         x: 0
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -532,19 +532,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24bfd9e4b44f21c41975a04179504a10
-      internalID: -635987509
+      spriteID: 5348a935b0714984abaeef37d23efe6e
+      internalID: 1997928581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_115
+      name: SaraLeggingsIdleGreen_20
       rect:
         serializedVersion: 2
-        x: 63
+        x: 64
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -553,19 +553,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c3dd926a18ea014cab95ed45143c6ba
-      internalID: 1472981432
+      spriteID: fca42313a9d2c2849a78d825718635ca
+      internalID: 1131874795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_116
+      name: SaraLeggingsIdleGreen_21
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -574,19 +574,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c7cfc039a1ab7b4b88768a3748a896c
-      internalID: 568479479
+      spriteID: 75404d1ce92886d46995e78b4b20ac2e
+      internalID: 539437199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_117
+      name: SaraLeggingsIdleGreen_22
       rect:
         serializedVersion: 2
-        x: 189
+        x: 192
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -595,19 +595,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96fd71ea2edeb084f99cf4424037927d
-      internalID: 848515008
+      spriteID: 973e0baeaa819bb4ab1df4f59ecae34e
+      internalID: -1485523252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_118
+      name: SaraLeggingsIdleGreen_23
       rect:
         serializedVersion: 2
-        x: 252
+        x: 256
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -616,19 +616,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20e4aad1696ef2e42a6df5f72de340dc
-      internalID: -813357452
+      spriteID: 7ba6ed221baa15c48ad187c928aa61a6
+      internalID: -1229081264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraShirt_119
+      name: SaraLeggingsIdleGreen_24
       rect:
         serializedVersion: 2
-        x: 315
+        x: 320
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -637,8 +637,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4487b2e8298e04489a9d64a16d3500c
-      internalID: 246856621
+      spriteID: cc9e0fb3422c0ff488785b7aed5ae3ad
+      internalID: 1625487502
       vertices: []
       indices: 
       edges: []
@@ -654,184 +654,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SaraShirt_22: 429638356
-      SaraShirt_74: -8814382
-      SaraShirt_119: 246856621
-      SaraShirt_157: -1788168078
-      SaraShirt_67: -501575900
-      SaraShirt_91: -96471715
-      SaraShirt_103: 616109649
-      SaraShirt_45: -1400261360
-      SaraShirt_51: -1658657802
-      SaraShirt_89: -608231007
-      SaraShirt_116: 568479479
-      SaraShirt_61: 1571837710
-      SaraShirt_118: -813357452
-      SaraShirt_8: -1057655642
-      SaraShirt_169: 1215209311
-      SaraShirt_153: -1881858279
-      SaraShirt_125: 1774511708
-      SaraShirt_26: 1337046886
-      SaraShirt_5: 1371696847
-      SaraShirt_15: -716477227
-      SaraShirt_63: -227508196
-      SaraShirt_121: 1403508819
-      SaraShirt_133: -449686682
-      SaraShirt_126: -843261789
-      SaraShirt_177: -933173719
-      SaraShirt_113: 89714652
-      SaraShirt_13: -1990863252
-      SaraShirt_139: 434957646
-      SaraShirt_73: -1314448640
-      SaraShirt_161: 1619162790
-      SaraShirt_98: 1084143384
-      SaraShirt_155: -1022548881
-      SaraShirt_165: -802202129
-      SaraShirt_47: -174167802
-      SaraShirt_46: 1473841159
-      SaraShirt_106: 748856162
-      SaraShirt_122: -619061353
-      SaraShirt_105: -176656520
-      SaraShirt_23: -1667450416
-      SaraShirt_112: -1452877503
-      SaraShirt_93: 1243759251
-      SaraShirt_44: 686249742
-      SaraShirt_1: 210555539
-      SaraShirt_176: 1319370050
-      SaraShirt_128: -436691582
-      SaraShirt_130: -1336589998
-      SaraShirt_72: 963440480
-      SaraShirt_123: 2111590464
-      SaraShirt_163: -1370402202
-      SaraShirt_110: 1305999004
-      SaraShirt_158: 658105675
-      SaraShirt_81: -1927523682
-      SaraShirt_109: 1899767547
-      SaraShirt_175: -465045249
-      SaraShirt_28: 806327387
-      SaraShirt_66: 1071179596
-      SaraShirt_94: -1138023166
-      SaraShirt_0: -1191945753
-      SaraShirt_137: 1312795400
-      SaraShirt_172: 1962019722
-      SaraShirt_35: 2083666911
-      SaraShirt_6: 801622601
-      SaraShirt_79: 829497089
-      SaraShirt_101: -1631996427
-      SaraShirt_16: 98909805
-      SaraShirt_52: -618525623
-      SaraShirt_129: -595025109
-      SaraShirt_147: -293541426
-      SaraShirt_40: 1647077139
-      SaraShirt_10: 1429626315
-      SaraShirt_59: 1420517180
-      SaraShirt_154: -1602887261
-      SaraShirt_164: 587048058
-      SaraShirt_141: 1608011429
-      SaraShirt_87: -187439183
-      SaraShirt_140: -1737323523
-      SaraShirt_162: 378659553
-      SaraShirt_55: 1486380934
-      SaraShirt_65: 696844512
-      SaraShirt_82: -891684184
-      SaraShirt_166: 45025749
-      SaraShirt_36: 1633705249
-      SaraShirt_99: 389109859
-      SaraShirt_83: -1502492383
-      SaraShirt_32: -534892390
-      SaraShirt_2: -514650001
-      SaraShirt_17: 1643607978
-      SaraShirt_149: -645846302
-      SaraShirt_80: -1406093681
-      SaraShirt_39: 1639201408
-      SaraShirt_70: -374449916
-      SaraShirt_88: 407951297
-      SaraShirt_171: -1293858244
-      SaraShirt_50: -1787063875
-      SaraShirt_143: -1738654859
-      SaraShirt_19: 1306130494
-      SaraShirt_3: -1879939514
-      SaraShirt_114: -635987509
-      SaraShirt_120: 1262235548
-      SaraShirt_30: -2099339519
-      SaraShirt_37: -1452476386
-      SaraShirt_76: 307660950
-      SaraShirt_42: 697818510
-      SaraShirt_31: 1768198278
-      SaraShirt_78: 2080290931
-      SaraShirt_14: 2044498631
-      SaraShirt_56: -200400350
-      SaraShirt_77: 108547964
-      SaraShirt_48: 1180926424
-      SaraShirt_27: -407709631
-      SaraShirt_25: 1845270740
-      SaraShirt_33: -1941618014
-      SaraShirt_85: 876846990
-      SaraShirt_34: -1325216544
-      SaraShirt_160: 1624777103
-      SaraShirt_134: -1504128194
-      SaraShirt_4: 1143495702
-      SaraShirt_167: -234384630
-      SaraShirt_7: -1149511572
-      SaraShirt_62: 1624358172
-      SaraShirt_136: -1275794845
-      SaraShirt_146: 1011657221
-      SaraShirt_115: 1472981432
-      SaraShirt_29: 898489171
-      SaraShirt_142: -692156278
-      SaraShirt_69: -582282346
-      SaraShirt_49: 255345531
-      SaraShirt_75: -1084697262
-      SaraShirt_86: -1390536376
-      SaraShirt_145: -709634179
-      SaraShirt_20: -2076400739
-      SaraShirt_58: 755455291
-      SaraShirt_21: -905656783
-      SaraShirt_148: -2040626869
-      SaraShirt_152: -1336330022
-      SaraShirt_97: 1977312561
-      SaraShirt_104: 1876636925
-      SaraShirt_127: -70046369
-      SaraShirt_41: 1041160498
-      SaraShirt_159: -1079630479
-      SaraShirt_11: -1344839173
-      SaraShirt_54: 104349170
-      SaraShirt_144: -2025266839
-      SaraShirt_102: 2019948358
-      SaraShirt_131: 1012611636
-      SaraShirt_117: 848515008
-      SaraShirt_135: 475963462
-      SaraShirt_108: -855709986
-      SaraShirt_168: -143512071
-      SaraShirt_173: 857435685
-      SaraShirt_38: -41808998
-      SaraShirt_124: 103970501
-      SaraShirt_111: 415071017
-      SaraShirt_71: 898844823
-      SaraShirt_100: -1522908343
-      SaraShirt_170: -1622615511
-      SaraShirt_60: 75304326
-      SaraShirt_174: -989937775
-      SaraShirt_9: -1642316345
-      SaraShirt_132: -233161156
-      SaraShirt_90: 1024785314
-      SaraShirt_57: -154727607
-      SaraShirt_156: -2135270000
-      SaraShirt_138: 2079996756
-      SaraShirt_43: -1635891251
-      SaraShirt_18: 1090838539
-      SaraShirt_68: 168192567
-      SaraShirt_107: 1064926680
-      SaraShirt_53: -217836336
-      SaraShirt_92: -1585006621
-      SaraShirt_96: 517901227
-      SaraShirt_64: -451967753
-      SaraShirt_84: 482662899
-      SaraShirt_150: -1557059836
-      SaraShirt_95: 907840128
-      SaraShirt_12: -687851040
-      SaraShirt_24: -965000707
-      SaraShirt_151: -1178606120
+      SaraLeggingsIdleGreen_17: 2009613312
+      SaraLeggingsIdleGreen_21: 539437199
+      SaraLeggingsIdleGreen_11: -1280609076
+      SaraLeggingsIdleGreen_2: -2003034981
+      SaraLeggingsIdleGreen_7: 1904155441
+      SaraLeggingsIdleGreen_24: 1625487502
+      SaraLeggingsIdleGreen_5: -51782235
+      SaraLeggingsIdleGreen_16: -1581029096
+      SaraLeggingsIdleGreen_12: 1950743738
+      SaraLeggingsIdleGreen_18: 257924317
+      SaraLeggingsIdleGreen_6: 1447694558
+      SaraLeggingsIdleGreen_14: 1424265141
+      SaraLeggingsIdleGreen_10: 1387360163
+      SaraLeggingsIdleGreen_9: 1125839656
+      SaraLeggingsIdleGreen_20: 1131874795
+      SaraLeggingsIdleGreen_23: -1229081264
+      SaraLeggingsIdleGreen_15: -340787894
+      SaraLeggingsIdleGreen_8: 391780414
+      SaraLeggingsIdleGreen_19: 1997928581
+      SaraLeggingsIdleGreen_1: 1789768282
+      SaraLeggingsIdleGreen_22: -1485523252
+      SaraLeggingsIdleGreen_0: -1291459715
+      SaraLeggingsIdleGreen_13: -557296844
+      SaraLeggingsIdleGreen_3: 1301059359
+      SaraLeggingsIdleGreen_4: 1966659160
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7aa7411a2e8e7364890133a933b9c143
+guid: fe72d9ddd4574234c96f41df870f5626
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,505 +140,505 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SaraLeggings_96
+      name: SaraLeggingsIdleRed_1
       rect:
         serializedVersion: 2
         x: 0
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac215c30fa77ce844b22ad729b459109
-      internalID: 1226141472
+      spriteID: 683d672df773169439a804d06277bde7
+      internalID: -9648848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_97
+      name: SaraLeggingsIdleRed_2
       rect:
         serializedVersion: 2
-        x: 63
+        x: 64
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b15aa1a52024e2845a1b34350cd65ceb
-      internalID: -1054293076
+      spriteID: 40369bd8211af7f4eb1c944608f97c01
+      internalID: -736896880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_98
+      name: SaraLeggingsIdleRed_3
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b33ec630cd539014ea109eb2d05999a0
-      internalID: -151271976
+      spriteID: 838489097dcf21442898482b413be102
+      internalID: 705704025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_99
+      name: SaraLeggingsIdleRed_4
       rect:
         serializedVersion: 2
-        x: 189
+        x: 192
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31d0600846901404d847728beb6acdd8
-      internalID: -1859854068
+      spriteID: 96112b6e7716c0b42aa0375e91f3eb95
+      internalID: 1627702689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_100
+      name: SaraLeggingsIdleRed_5
       rect:
         serializedVersion: 2
-        x: 252
+        x: 256
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b148824ff0060254e9fe04f7a0f14bb3
-      internalID: -722655556
+      spriteID: cdf64d0b2e930654b867a61966bc22ef
+      internalID: -269389505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_101
+      name: SaraLeggingsIdleRed_6
       rect:
         serializedVersion: 2
-        x: 315
+        x: 320
         y: 512
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d04eecf76beba9c4e941494d0115930e
-      internalID: 721503545
+      spriteID: 2e78779f46f3344459f27924f877d913
+      internalID: 616309752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_102
+      name: SaraLeggingsIdleRed_7
       rect:
         serializedVersion: 2
         x: 0
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ba002e4e77c4c04c80f99d1bd7f9e80
-      internalID: 990447426
+      spriteID: e140ca50863893246a19be6a4b90f084
+      internalID: -1185998268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_103
+      name: SaraLeggingsIdleRed_8
       rect:
         serializedVersion: 2
-        x: 63
+        x: 64
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26a5368267c67054ebbcd63e18fac167
-      internalID: -1641416773
+      spriteID: 81872483ad7887b499fa4819068d6052
+      internalID: 93162343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_104
+      name: SaraLeggingsIdleRed_9
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0f13b3ed0fdaf84fa852a37de0adeb0
-      internalID: -1929762840
+      spriteID: 91c186c648fba214ea51a93fa13f6891
+      internalID: -588086627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_105
+      name: SaraLeggingsIdleRed_10
       rect:
         serializedVersion: 2
-        x: 189
+        x: 192
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eccbde43fdf54a844ad96f6e0aecc121
-      internalID: -470715427
+      spriteID: e13807f1c9f17c645b42989291d00aa8
+      internalID: 778817826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_106
+      name: SaraLeggingsIdleRed_11
       rect:
         serializedVersion: 2
-        x: 252
+        x: 256
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91641c6920f78da4bb7a6860873b3193
-      internalID: -1728956712
+      spriteID: 60fd796ae19193d4f93df541d331e260
+      internalID: 1089937662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_107
+      name: SaraLeggingsIdleRed_12
       rect:
         serializedVersion: 2
-        x: 315
+        x: 320
         y: 448
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f9d39a5981a7c948be1d80e0397094e
-      internalID: -1039898095
+      spriteID: f218c194c1e34824991129f26a59d402
+      internalID: -1289368508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_108
+      name: SaraLeggingsIdleRed_13
       rect:
         serializedVersion: 2
         x: 0
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9f5e234ac114ef4abcb7bcb7a367872
-      internalID: -1517200067
+      spriteID: 33be476270e79ed4a9a0ea6ffd36e04a
+      internalID: 493387549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_109
+      name: SaraLeggingsIdleRed_14
       rect:
         serializedVersion: 2
-        x: 63
+        x: 64
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ad5472a92fc874439bb32eecbbf6526
-      internalID: -1093654461
+      spriteID: 0f017b75ed4c474419b54dd82c84f3d1
+      internalID: -242795623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_110
+      name: SaraLeggingsIdleRed_15
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 132021cb942508641a3037bf124a6715
-      internalID: 480616288
+      spriteID: 408c0eb4ec05583418218d9ffd4dbba0
+      internalID: 2117556936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_111
+      name: SaraLeggingsIdleRed_16
       rect:
         serializedVersion: 2
-        x: 189
+        x: 192
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5906ae15f06a30047b25b6750e3ba32f
-      internalID: -659573987
+      spriteID: 53103c1d59af7fc4ea4467c3d3eb63cf
+      internalID: 1461509263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_112
+      name: SaraLeggingsIdleRed_17
       rect:
         serializedVersion: 2
-        x: 252
+        x: 256
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42ae1e34a2a858d40ac7b99801e709b5
-      internalID: -1663547746
+      spriteID: a8bd5e1a4feeccd439320dd08f46ef5f
+      internalID: -316373391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_113
+      name: SaraLeggingsIdleRed_18
       rect:
         serializedVersion: 2
-        x: 315
+        x: 320
         y: 384
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2601d4048063a9a47a68f24f2aad5624
-      internalID: -1392639189
+      spriteID: ee836f76bdcae6246a65bd38b1885538
+      internalID: 1435658904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_114
+      name: SaraLeggingsIdleRed_19
       rect:
         serializedVersion: 2
         x: 0
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db467c8ccdd4d0545826d0b134deba02
-      internalID: 1576107127
+      spriteID: 5a1ed55cf756e8f4694eadfce84aeb2e
+      internalID: 2096542174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_115
+      name: SaraLeggingsIdleRed_20
       rect:
         serializedVersion: 2
-        x: 63
+        x: 64
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c86604ce67219d54e9f31f111e521332
-      internalID: -1809437395
+      spriteID: e6f2255639935cf4ebc7dcb46ea5d655
+      internalID: 139654421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_116
+      name: SaraLeggingsIdleRed_21
       rect:
         serializedVersion: 2
-        x: 126
+        x: 128
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc630bfc94aa684429d8c73716b2df2c
-      internalID: -385558159
+      spriteID: 10acb6f4668106a458348c3be145648a
+      internalID: 979093244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_117
+      name: SaraLeggingsIdleRed_22
       rect:
         serializedVersion: 2
-        x: 189
+        x: 192
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cec6e4be8085e04589968b74aab3725
-      internalID: 876741792
+      spriteID: ffe5f045eeb411e48812d8a2f24f1aba
+      internalID: -1083146862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_118
+      name: SaraLeggingsIdleRed_23
       rect:
         serializedVersion: 2
-        x: 252
+        x: 256
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f48df4bf77e3d2042b9b47181f179bd0
-      internalID: -1883201745
+      spriteID: 3549f8adae7edc54da5f84f8258efdb3
+      internalID: 209401814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SaraLeggings_119
+      name: SaraLeggingsIdleRed_24
       rect:
         serializedVersion: 2
-        x: 315
+        x: 320
         y: 320
-        width: 63.53846
+        width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a03a98703246dfb41aeb8f12cab540a7
-      internalID: 1792962608
+      spriteID: 90d22b28d9d632f4e888e46f43f2f465
+      internalID: -1618996166
       vertices: []
       indices: 
       edges: []
@@ -654,184 +654,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SaraLeggings_121: 441375954
-      SaraLeggings_171: 1300774286
-      SaraLeggings_160: -1709416193
-      SaraLeggings_90: -1958123794
-      SaraLeggings_80: -1431267404
-      SaraLeggings_3: -1488692579
-      SaraLeggings_27: -1590621281
-      SaraLeggings_11: 1086847329
-      SaraLeggings_94: 565505697
-      SaraLeggings_117: 876741792
-      SaraLeggings_53: 1130449024
-      SaraLeggings_92: 709789302
-      SaraLeggings_162: -2052111669
-      SaraLeggings_69: 1739526005
-      SaraLeggings_34: -677719235
-      SaraLeggings_89: -1684192843
-      SaraLeggings_169: -33034898
-      SaraLeggings_32: -276943900
-      SaraLeggings_68: -1100589427
-      SaraLeggings_97: -1054293076
-      SaraLeggings_103: -1641416773
-      SaraLeggings_150: 1310085876
-      SaraLeggings_45: 1529967241
-      SaraLeggings_106: -1728956712
-      SaraLeggings_111: -659573987
-      SaraLeggings_125: -1586186910
-      SaraLeggings_173: -900427804
-      SaraLeggings_120: -1789272044
-      SaraLeggings_155: 1886315802
-      SaraLeggings_131: 41332458
-      SaraLeggings_166: 297645727
-      SaraLeggings_15: 1042658357
-      SaraLeggings_29: 1208549257
-      SaraLeggings_73: -218171005
-      SaraLeggings_154: 1935311150
-      SaraLeggings_31: 622353634
-      SaraLeggings_168: -72580382
-      SaraLeggings_98: -151271976
-      SaraLeggings_39: 790286362
-      SaraLeggings_96: 1226141472
-      SaraLeggings_24: -995652370
-      SaraLeggings_110: 480616288
-      SaraLeggings_138: -480383816
-      SaraLeggings_145: -462978672
-      SaraLeggings_147: 1963579459
-      SaraLeggings_148: 751620238
-      SaraLeggings_93: 267128865
-      SaraLeggings_152: 433078834
-      SaraLeggings_76: -1517365569
-      SaraLeggings_135: -1560682236
-      SaraLeggings_161: 110819872
-      SaraLeggings_167: -1805760183
-      SaraLeggings_41: -861078311
-      SaraLeggings_99: -1859854068
-      SaraLeggings_156: 2131225977
-      SaraLeggings_5: 266184551
-      SaraLeggings_163: -295275506
-      SaraLeggings_42: -933302632
-      SaraLeggings_16: 704962149
-      SaraLeggings_101: 721503545
-      SaraLeggings_132: -2096420839
-      SaraLeggings_84: 1763930851
-      SaraLeggings_142: 1683260552
-      SaraLeggings_49: -1866918057
-      SaraLeggings_2: 294578644
-      SaraLeggings_30: 1533326101
-      SaraLeggings_81: -1475626834
-      SaraLeggings_60: 634490399
-      SaraLeggings_51: -1843876306
-      SaraLeggings_137: -334133161
-      SaraLeggings_46: -1484483131
-      SaraLeggings_175: -1889551605
-      SaraLeggings_124: 1842823293
-      SaraLeggings_52: 1774338755
-      SaraLeggings_54: -564397629
-      SaraLeggings_65: -381541543
-      SaraLeggings_157: 1693447025
-      SaraLeggings_85: 711060000
-      SaraLeggings_176: -1847492523
-      SaraLeggings_87: -667624551
-      SaraLeggings_95: 1019981708
-      SaraLeggings_12: -1240595888
-      SaraLeggings_172: 872171614
-      SaraLeggings_67: 477165399
-      SaraLeggings_71: 1315422302
-      SaraLeggings_112: -1663547746
-      SaraLeggings_9: -519962775
-      SaraLeggings_158: 2050142270
-      SaraLeggings_64: -905354580
-      SaraLeggings_136: -1769603008
-      SaraLeggings_17: -722993651
-      SaraLeggings_70: 861911331
-      SaraLeggings_43: -318150389
-      SaraLeggings_10: -809905041
-      SaraLeggings_143: -516440759
-      SaraLeggings_108: -1517200067
-      SaraLeggings_144: 1217263247
-      SaraLeggings_35: -407266549
-      SaraLeggings_139: -1527811591
-      SaraLeggings_63: 1467653805
-      SaraLeggings_91: -2106827057
-      SaraLeggings_118: -1883201745
-      SaraLeggings_123: 1396309347
-      SaraLeggings_151: -465318038
-      SaraLeggings_19: -1356137594
-      SaraLeggings_55: -1537658465
-      SaraLeggings_72: 1273823404
-      SaraLeggings_153: -1593758737
-      SaraLeggings_6: 241191714
-      SaraLeggings_133: -1455570032
-      SaraLeggings_28: -1034519096
-      SaraLeggings_8: -80947191
-      SaraLeggings_26: 1067657701
-      SaraLeggings_105: -470715427
-      SaraLeggings_33: -750077465
-      SaraLeggings_21: -110861387
-      SaraLeggings_25: 1901293920
-      SaraLeggings_47: 220003283
-      SaraLeggings_20: 810455661
-      SaraLeggings_66: -207937562
-      SaraLeggings_13: 1746913895
-      SaraLeggings_50: 1928190004
-      SaraLeggings_61: -1337849642
-      SaraLeggings_109: -1093654461
-      SaraLeggings_83: -467556909
-      SaraLeggings_129: -1877066849
-      SaraLeggings_134: 308751574
-      SaraLeggings_4: -1362600203
-      SaraLeggings_115: -1809437395
-      SaraLeggings_100: -722655556
-      SaraLeggings_146: 1281794429
-      SaraLeggings_1: -1089425738
-      SaraLeggings_114: 1576107127
-      SaraLeggings_14: 196417315
-      SaraLeggings_48: 1691940202
-      SaraLeggings_0: 330619196
-      SaraLeggings_127: 2015807347
-      SaraLeggings_62: 1667729539
-      SaraLeggings_104: -1929762840
-      SaraLeggings_44: -109578073
-      SaraLeggings_113: -1392639189
-      SaraLeggings_78: -1572558138
-      SaraLeggings_122: -1485516024
-      SaraLeggings_7: 1716135570
-      SaraLeggings_75: -565000263
-      SaraLeggings_141: 1471374472
-      SaraLeggings_18: 2040667028
-      SaraLeggings_77: 1071528856
-      SaraLeggings_38: -1092650721
-      SaraLeggings_165: -2066835350
-      SaraLeggings_74: 844099087
-      SaraLeggings_128: -813901807
-      SaraLeggings_102: 990447426
-      SaraLeggings_82: 287655598
-      SaraLeggings_149: 1129669925
-      SaraLeggings_58: 1041191317
-      SaraLeggings_36: -862412386
-      SaraLeggings_57: -1229118180
-      SaraLeggings_79: -2142257160
-      SaraLeggings_88: -1368106378
-      SaraLeggings_159: -448305179
-      SaraLeggings_164: 1209193992
-      SaraLeggings_86: 1325488859
-      SaraLeggings_140: 1518515470
-      SaraLeggings_22: -1397281884
-      SaraLeggings_174: 1971218607
-      SaraLeggings_170: 1530936679
-      SaraLeggings_40: 1267671593
-      SaraLeggings_59: 1284219249
-      SaraLeggings_116: -385558159
-      SaraLeggings_23: -759272074
-      SaraLeggingsIdle_0: 1797634932
-      SaraLeggings_37: -988420592
-      SaraLeggings_130: -741720132
-      SaraLeggings_107: -1039898095
-      SaraLeggings_119: 1792962608
-      SaraLeggings_56: 390708604
-      SaraLeggings_126: 526206415
+      SaraLeggingsIdleRed_10: 778817826
+      SaraLeggingsIdleRed_1: -9648848
+      SaraLeggingsIdleRed_11: 1089937662
+      SaraLeggingsIdleRed_5: -269389505
+      SaraLeggingsIdleRed_24: -1618996166
+      SaraLeggingsIdleRed_2: -736896880
+      SaraLeggingsIdleRed_8: 93162343
+      SaraLeggingsIdleRed_4: 1627702689
+      SaraLeggingsIdleRed_13: 493387549
+      SaraLeggingsIdleRed_9: -588086627
+      SaraLeggingsIdleRed_15: 2117556936
+      SaraLeggingsIdleRed_23: 209401814
+      SaraLeggingsIdleRed_12: -1289368508
+      SaraLeggingsIdleRed_19: 2096542174
+      SaraLeggingsIdleRed_17: -316373391
+      SaraLeggingsIdleRed_16: 1461509263
+      SaraLeggingsIdleRed_6: 616309752
+      SaraLeggingsIdleRed_14: -242795623
+      SaraLeggingsIdleRed_21: 979093244
+      SaraLeggingsIdleRed_7: -1185998268
+      SaraLeggingsIdleRed_18: 1435658904
+      SaraLeggingsIdleRed_3: 705704025
+      SaraLeggingsIdleRed_22: -1083146862
+      SaraLeggingsIdleRed_0: -985747505
+      SaraLeggingsIdleRed_20: 139654421
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

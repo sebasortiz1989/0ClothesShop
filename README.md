@@ -64,8 +64,8 @@ https://bluegravity.wiki/interview/programming
   - ~~Create exclamation mark on top of him~~
 - ~~Create the player~~
   - ~~Make sure the player can have interchangeable cloths equiped (Shirts, pants and boots)~~
-  - ~~Create idle animation (96-119)~~
-  - ~~Create moving animation (60-68 Up, 69-77 Left, 78-86 Down, 87-95 Right)~~
+  - ~~Create idle animation~~
+  - ~~Create moving animation~~
   - ~~Move the player around using keys and animate it~~
   - ~~Create interaction with the shopper, the key should be serializable and you can select the keys (default space and scape to exit), when close to the shopper the exclamation mark appears and therefore you can interact with him.~~
 - ~~Create the shopping menu~~
@@ -85,5 +85,5 @@ https://bluegravity.wiki/interview/programming
     - ~~As long as you don't have the item equiped you can sell it~~
     - ~~Once the item is sold, it dissapears from the menu, and it returns to the buy tab~~
     - ~~You can equip items from the sold tab, once you select an item with your mouse you can either sell it or wear it if it is not already equiped.~~
-  - With the selected gear update the animations to show the worn items
+- With the selected gear update the animations to show the worn items
   
