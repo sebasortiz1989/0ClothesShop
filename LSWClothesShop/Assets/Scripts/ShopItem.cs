@@ -10,4 +10,12 @@ public class ShopItem : ScriptableObject
     public string sellingPrice;
     public Sprite equipedIcon;
     public Sprite purchasedIcon;
+    public ClothingType clothingType;
+}
+
+public enum ClothingType
+{
+    Shirt,
+    Pants,
+    Shoes,
 }

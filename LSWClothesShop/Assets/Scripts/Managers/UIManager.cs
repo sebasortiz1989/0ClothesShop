@@ -118,7 +118,27 @@ namespace Managers
         
         public void EquipItem()
         {
-            
+            if (_selectedItem == null) return;
+            ShopIconDisplay shopIconDisplay = _selectedItem.GetComponent<ShopIconDisplay>();
+            shopIconDisplay.equipedIcon.gameObject.SetActive(true);
+
+            for (var i = 0; i < ManagerLocator.Instance.PlayerController.EquipedItems.Count; i++)
+            {
+                if (ManagerLocator.Instance.PlayerController.EquipedItems[i].clothingType != shopIconDisplay.ShopItem.clothingType) continue;
+                ManagerLocator.Instance.PlayerController.EquipedItems.RemoveAt(i);
+                i--;
+            }
+            ManagerLocator.Instance.PlayerController.EquipedItems.Add(shopIconDisplay.ShopItem);
+
+            var sellingIcons = sellingItemsTab.GetComponentsInChildren<ShopIconDisplay>();
+            foreach (var item in sellingIcons)
+            {
+                if (item.ShopItem.clothingType != shopIconDisplay.ShopItem.clothingType || item.ShopItem == shopIconDisplay.ShopItem) continue;
+                item.equipedIcon.gameObject.SetActive(false);
+            }
+
+            var equipedItemsString = ManagerLocator.Instance.PlayerController.EquipedItems.Select(x => x.name.ToString()).ToArray();
+            Debug.Log(message: $"Equiped items: {equipedItemsString[0]}, {equipedItemsString[1]}, {equipedItemsString[2]}");
         }
 
         private void PopulateShoppingListFirstTime()
