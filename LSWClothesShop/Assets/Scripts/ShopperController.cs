@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class ShopperInteraction : MonoBehaviour
+public class ShopperController : MonoBehaviour
 {
     [SerializeField] SpriteRenderer questIcon;
 
@@ -14,34 +14,29 @@ public class ShopperInteraction : MonoBehaviour
     {
         questIcon.enabled = false;
     }
-    
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerStay2D(Collider2D other)
     {
         if (!other.gameObject.CompareTag("Player")) { return; }
         
-        var player = other.GetComponent<PlayerMovement>();
-        if (player.FacingDirection == FacingDirection.Left && !player.interactingWithShopper)
+        var player = other.GetComponent<PlayerController>();
+        if (player.FacingDirection == FacingDirection.Left && !player.InteractingWithShopper)
         {
             questIcon.enabled = true;
-            player.interactingWithShopper = true;
+            player.InteractingWithShopper = true;
         }
         else if (player.FacingDirection != FacingDirection.Left)
         {
             questIcon.enabled = false;
-            player.interactingWithShopper = false;
+            player.InteractingWithShopper = false;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        var player = other.GetComponent<PlayerMovement>();
+        var player = other.GetComponent<PlayerController>();
         if (!other.gameObject.CompareTag("Player")) return;
         questIcon.enabled = false;
-        player.interactingWithShopper = false;
+        player.InteractingWithShopper = false;
     }
 }
