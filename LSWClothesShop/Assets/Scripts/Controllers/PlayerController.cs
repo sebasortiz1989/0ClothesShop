@@ -1,168 +1,151 @@
+using Managers;
 using Mono.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
-public enum FacingDirection
+namespace Controllers
 {
-    Up,
-    Down,
-    Left,
-    Right
-}
+    public enum FacingDirection
+    {
+        Up,
+        Down,
+        Left,
+        Right
+    }
 
-public class PlayerController : MonoBehaviour
-{
-    [Range(2, 5)] [SerializeField] float runSpeed = 4;
-    [SerializeField] KeyCode interactionKey = KeyCode.Space;
+    public class PlayerController : MonoBehaviour
+    {
+        [Range(2, 5)] [SerializeField] float runSpeed = 4;
+        [SerializeField] KeyCode interactionKey = KeyCode.Space;
+        [SerializeField] private Animator[] animatorControllers;
     
-    // Cached component references
-    private Rigidbody2D _myRigidBody;
-    private Animator _myAnimator;
-    private SpriteRenderer _mySprite;
+        // Cached component references
+        private Rigidbody2D _myRigidBody;
 
-    // String const
-    private const string Horizontal = "Horizontal";
-    private const string Vertical = "Vertical";
+        // String const
+        private const string Horizontal = "Horizontal";
+        private const string Vertical = "Vertical";
 
-    // Initialize variables
-    private float _xDirection;
-    private float _yDirection;
-    private bool _playerMoving;
-    private FacingDirection _facingDirection = FacingDirection.Down;
+        // Initialize variables
+        private float _xDirection;
+        private float _yDirection;
+        private bool _playerMoving;
+        private FacingDirection _facingDirection = FacingDirection.Down;
 
-    private static readonly int MovingRight = Animator.StringToHash("MovingRight");
-    private static readonly int MovingLeft = Animator.StringToHash("MovingLeft");
-    private static readonly int MovingUp = Animator.StringToHash("MovingUp");
-    private static readonly int MovingDown = Animator.StringToHash("MovingDown");
-    private static readonly int IdleDown = Animator.StringToHash("IdleDown");
-    private static readonly int IdleUp = Animator.StringToHash("IdleUp");
-    private static readonly int IdleLeft = Animator.StringToHash("IdleLeft");
-    private static readonly int IdleRight = Animator.StringToHash("IdleRight");
+        private static readonly int XDirection = Animator.StringToHash("xDirection");
+        private static readonly int YDirection = Animator.StringToHash("yDirection");
+        private static readonly int IdleDown = Animator.StringToHash("IdleDown");
+        private static readonly int IdleUp = Animator.StringToHash("IdleUp");
+        private static readonly int IdleLeft = Animator.StringToHash("IdleLeft");
+        private static readonly int IdleRight = Animator.StringToHash("IdleRight");
+        private static readonly int MovingTrigger = Animator.StringToHash("MovingTrigger");
 
-    public FacingDirection FacingDirection
-    {
-        get => _facingDirection;
-        set
+        public FacingDirection FacingDirection
         {
-            if (_facingDirection == value && _playerMoving)
-            {
-                return;
-            }
-
-            _facingDirection = value;
-            switch (_facingDirection)
-            {
-                case FacingDirection.Down:
-                    _myAnimator.SetTrigger(MovingDown);
-                    break;
-                case FacingDirection.Up:
-                    _myAnimator.SetTrigger(MovingUp);
-                    break;
-                case FacingDirection.Left:
-                    _myAnimator.SetTrigger(MovingLeft);
-                    break;
-                case FacingDirection.Right:
-                    _myAnimator.SetTrigger(MovingRight);
-                    break;
-            }
+            get => _facingDirection;
         }
-    }
-    public bool InteractingWithShopper { get; set; }
-    public bool ShopAccesed { get; set; }
-    public Collection<ShopItem> EquipedItems { get; set; } = new();
-    public Collection<ShopItem> OwnedItems { get; set; } = new();
+        public bool InteractingWithShopper { get; set; }
+        public bool ShopAccesed { get; set; }
+        public Collection<ShopItem> EquipedItems { get; set; } = new();
+        public Collection<ShopItem> OwnedItems { get; set; } = new();
 
-    public Rigidbody2D MyRigidBody
-    {
-        get => _myRigidBody;
-        set => _myRigidBody = value;
-    }
-
-    private void Awake()
-    {
-        _myRigidBody = GetComponent<Rigidbody2D>();
-        _myAnimator = GetComponent<Animator>();
-        _mySprite = GetComponent<SpriteRenderer>();
-    }
-
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-        if (!ShopAccesed)
+        public Rigidbody2D MyRigidBody
         {
-            MovePlayer();
+            get => _myRigidBody;
+            set => _myRigidBody = value;
         }
 
-        if (InteractingWithShopper)
+        private void Awake()
         {
-            if (Input.GetKeyDown(interactionKey))
+            _myRigidBody = GetComponent<Rigidbody2D>();
+            GetComponent<SpriteRenderer>();
+        }
+
+        void Start()
+        {
+
+        }
+
+        void Update()
+        {
+            if (!ShopAccesed)
             {
-                ManagerLocator.Instance.UImanager.OpenCloseShop(true);
+                MovePlayer();
             }
-            if (Input.GetKeyDown(KeyCode.Escape))
+
+            if (InteractingWithShopper)
             {
-                ManagerLocator.Instance.UImanager.OpenCloseShop(false);
+                if (Input.GetKeyDown(interactionKey))
+                {
+                    ManagerLocator.Instance.UImanager.OpenCloseShop(true);
+                }
+                if (Input.GetKeyDown(KeyCode.Escape))
+                {
+                    ManagerLocator.Instance.UImanager.OpenCloseShop(false);
+                }
             }
         }
-    }
 
-    public void UpdatePlayerAnimation(Vector2 playerVelocity)
-    {
-        if (playerVelocity != Vector2.zero)
+        public void UpdatePlayerAnimation(Vector2 playerVelocity)
         {
-            if (_xDirection > 0)
+            if (playerVelocity != Vector2.zero)
             {
-                FacingDirection = FacingDirection.Right;
-            }
-            else if (_xDirection < 0)
-            {
-                FacingDirection = FacingDirection.Left;
-            }
-            else if (_yDirection > 0)
-            {
-                FacingDirection = FacingDirection.Up;
-            }
-            else if (_yDirection < 0)
-            {
-                FacingDirection = FacingDirection.Down;
-            }
+                if (_xDirection > 0)
+                {
+                    _facingDirection = FacingDirection.Right;
+                }
+                else if (_xDirection < 0)
+                {
+                    _facingDirection = FacingDirection.Left;
+                }
+                else if (_yDirection > 0)
+                {
+                    _facingDirection = FacingDirection.Up;
+                }
+                else if (_yDirection < 0)
+                {
+                    _facingDirection = FacingDirection.Down;
+                }
 
-            _playerMoving = true;
+                if (!_playerMoving)
+                {
+                    animatorControllers.SetTriggers(MovingTrigger);
+                }
+                _playerMoving = true;
+            }
+            else
+            {
+                if (!_playerMoving) return;
+                switch (_facingDirection)
+                {
+                    case FacingDirection.Down:
+                        animatorControllers.SetTriggers(IdleDown);
+                        break;
+                    case FacingDirection.Up:
+                        animatorControllers.SetTriggers(IdleUp);
+                        break;
+                    case FacingDirection.Left:
+                        animatorControllers.SetTriggers(IdleLeft);
+                        break;
+                    case FacingDirection.Right:
+                        animatorControllers.SetTriggers(IdleRight);
+                        break;
+                }
+
+                _playerMoving = false;
+            }
         }
-        else
+
+        private void MovePlayer()
         {
-            if (!_playerMoving) return;
-            switch (_facingDirection)
-            {
-                case FacingDirection.Down:
-                    _myAnimator.SetTrigger(IdleDown);
-                    break;
-                case FacingDirection.Up:
-                    _myAnimator.SetTrigger(IdleUp);
-                    break;
-                case FacingDirection.Left:
-                    _myAnimator.SetTrigger(IdleLeft);
-                    break;
-                case FacingDirection.Right:
-                    _myAnimator.SetTrigger(IdleRight);
-                    break;
-            }
+            _xDirection = Input.GetAxis(Horizontal);
+            _yDirection = Input.GetAxis(Vertical);
 
-            _playerMoving = false;
+            animatorControllers.SetFloats(boolHash: XDirection, _xDirection);
+            animatorControllers.SetFloats(boolHash: YDirection, _yDirection);
+            
+            Vector2 playerVelocityVector = new Vector2(_xDirection, _yDirection);
+            _myRigidBody.velocity = playerVelocityVector.normalized * runSpeed;
+            UpdatePlayerAnimation(playerVelocityVector);
         }
-    }
-
-    private void MovePlayer()
-    {
-        _xDirection = Input.GetAxis(Horizontal);
-        _yDirection = Input.GetAxis(Vertical);
-
-        Vector2 playerVelocityVector = new Vector2(_xDirection, _yDirection);
-        _myRigidBody.velocity = playerVelocityVector.normalized * runSpeed;
-        UpdatePlayerAnimation(playerVelocityVector);
     }
 }

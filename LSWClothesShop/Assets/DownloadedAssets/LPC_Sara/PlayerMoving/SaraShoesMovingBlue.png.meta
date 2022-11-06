@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -910,7 +910,6 @@ TextureImporter:
       SaraShoesMovingBlue_13: -887120955
       SaraShoesMovingBlue_31: 81300598
       SaraShoesMovingBlue_32: 1837132528
-      SaraShoesMovingBlue_26: 1458589150
       SaraShoesMovingBlue_27: -623534962
       SaraShoesMovingBlue_34: 2046048861
       SaraShoesMovingBlue_23: 1037482329
@@ -929,17 +928,18 @@ TextureImporter:
       SaraShoesMovingBlue_3: -971022673
       SaraShoesMovingBlue_22: 379458417
       SaraShoesMovingBlue_11: 1981739765
+      SaraShoesMovingBlue_26: 1458589150
       SaraShoesMovingBlue_21: -476441543
       SaraShoesMovingBlue_8: -1258840564
       SaraShoesMovingBlue_16: -1015162274
       SaraShoesMovingBlue_1: -954919114
-      SaraShoesMovingBlue_28: -2116992731
       SaraShoesMovingBlue_33: -1706232852
       SaraShoesMovingBlue_14: -538863895
+      SaraShoesMovingBlue_28: -2116992731
       SaraShoesMovingBlue_9: -1944654633
-      SaraShoesMovingBlue_30: 647809531
       SaraShoesMovingBlue_10: 1260990328
       SaraShoesMovingBlue_24: 1192486120
+      SaraShoesMovingBlue_30: 647809531
       SaraShoesMovingBlue_19: -1854535360
       SaraShoesMovingBlue_25: 35921794
   spritePackingTag: 
