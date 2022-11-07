@@ -21,20 +21,16 @@ namespace Managers
         void Start()
         {
             OpenCloseShop(false);
-            BuySellTabSelection(true);
             PopulateShoppingListFirstTime();
         }
 
         public void OpenCloseShop(bool open)
         {
+            BuySellTabSelection(true);
             gameObject.SetActive(open);
             ManagerLocator.Instance.PlayerController.ShopAccesed = open;
 
-            if (!open)
-            {
-                // Update Animations of cloths
-                return;
-            }
+            if (!open) { return; }
             ManagerLocator.Instance.PlayerController.MyRigidBody.velocity = Vector2.zero;
             ManagerLocator.Instance.PlayerController.UpdatePlayerAnimation(Vector2.zero);
         }
@@ -143,6 +139,7 @@ namespace Managers
 
             var equipedItemsString = ManagerLocator.Instance.PlayerController.EquipedItems.Select(x => x.name.ToString()).ToArray();
             Debug.Log(message: $"Equiped items: {equipedItemsString[0]}, {equipedItemsString[1]}, {equipedItemsString[2]}");
+            ManagerLocator.Instance.PlayerController.UpdateCloths();
         }
 
         private void PopulateShoppingListFirstTime()
@@ -159,6 +156,8 @@ namespace Managers
             AddNewItemToSellTab(ManagerLocator.Instance.WardroveManager.blueShirt, equip: true);
             AddNewItemToSellTab(ManagerLocator.Instance.WardroveManager.greenPants, equip: true);
             AddNewItemToSellTab(ManagerLocator.Instance.WardroveManager.greenShoes, equip: true);
+            
+            ManagerLocator.Instance.PlayerController.UpdateCloths();
         }
         
         private void DestroyAllIconsInShoppingList()

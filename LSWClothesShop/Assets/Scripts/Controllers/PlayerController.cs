@@ -1,3 +1,4 @@
+using System.Linq;
 using Managers;
 using Mono.Collections.Generic;
 using UnityEngine;
@@ -45,8 +46,8 @@ namespace Controllers
         }
         public bool InteractingWithShopper { get; set; }
         public bool ShopAccesed { get; set; }
-        public Collection<ShopItem> EquipedItems { get; set; } = new();
-        public Collection<ShopItem> OwnedItems { get; set; } = new();
+        public Collection<ShopItem> EquipedItems { get; } = new();
+        public Collection<ShopItem> OwnedItems { get; } = new();
 
         public Rigidbody2D MyRigidBody
         {
@@ -60,11 +61,6 @@ namespace Controllers
             GetComponent<SpriteRenderer>();
         }
 
-        void Start()
-        {
-
-        }
-
         void Update()
         {
             if (!ShopAccesed)
@@ -72,16 +68,14 @@ namespace Controllers
                 MovePlayer();
             }
 
-            if (InteractingWithShopper)
+            if (!InteractingWithShopper) return;
+            if (Input.GetKeyDown(interactionKey))
             {
-                if (Input.GetKeyDown(interactionKey))
-                {
-                    ManagerLocator.Instance.UImanager.OpenCloseShop(true);
-                }
-                if (Input.GetKeyDown(KeyCode.Escape))
-                {
-                    ManagerLocator.Instance.UImanager.OpenCloseShop(false);
-                }
+                ManagerLocator.Instance.UImanager.OpenCloseShop(true);
+            }
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                ManagerLocator.Instance.UImanager.OpenCloseShop(false);
             }
         }
 
@@ -132,6 +126,24 @@ namespace Controllers
                 }
 
                 _playerMoving = false;
+            }
+        }
+
+        public void UpdateCloths()
+        {
+            foreach (var animatorController in animatorControllers)
+            {
+                if (animatorController.gameObject.CompareTag("Player") || animatorController.gameObject.name == "Hair") continue;
+                if (EquipedItems.Select(x => x.name == animatorController.gameObject.name).Any(v => v))
+                {
+                    animatorController.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+                }
+                else
+                {
+                    animatorController.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+                }
+
+                    
             }
         }
 

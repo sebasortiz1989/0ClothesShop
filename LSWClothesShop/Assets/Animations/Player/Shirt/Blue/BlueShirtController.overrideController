@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BlueShirtController
+  m_Controller: {fileID: 9100000, guid: c2471a48c304ab44ab565795d98e1c83, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7506285fe1fec9f40a43b8f4c8d8a4ea, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bda02d9ebbf75c941881f28bfc783284, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2a01c64dd161c0d46913b7845f14b9fe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c2a4662d5ce4e094e9fde668a94c4fef, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a2cdd9917a9269648b0f1eb4baf55c6e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d343799426f07834a9a16baba4ac4ec8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ecf187486dcaedb4b8d68ce14a5209bd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c829ec53d32fac04d8ed1f2cf6d1ace7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 108f9a25d940ed6459b0a60cf67b0884, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 738f84b7990158747a8182c1c125e1c6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5e6c8019731640b40b1b6b19488cdf50, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: aecfab32f59130d4889109714a4c2996, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 522ff966dee17614189ffc355ed61930, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 31bbde2a038a7a04e98c13880de93128, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3e0a29b719c68bf4283852cfa1fcb775, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2b793b7b1339c6b4b8ce9495476291d0, type: 2}

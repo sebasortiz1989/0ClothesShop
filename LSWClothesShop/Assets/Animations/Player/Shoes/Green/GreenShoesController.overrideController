@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GreenShoesController
+  m_Controller: {fileID: 9100000, guid: c2471a48c304ab44ab565795d98e1c83, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7506285fe1fec9f40a43b8f4c8d8a4ea, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b8b2ad28bea3cef46b9152eaf90f06a6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2a01c64dd161c0d46913b7845f14b9fe, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 012be20050b49c74b99d1339de44822e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a2cdd9917a9269648b0f1eb4baf55c6e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 23278189715260d429d3f808a9207a3b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ecf187486dcaedb4b8d68ce14a5209bd, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ffeba942ef9cad34688e8046e800517b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 108f9a25d940ed6459b0a60cf67b0884, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 15ba35eb1c6aad342a46dc79a533ce84, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5e6c8019731640b40b1b6b19488cdf50, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c6348e355a0490845872fc2ae42aa1d7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 522ff966dee17614189ffc355ed61930, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 04d06887dec21d44ca5c29f5353d26c6, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3e0a29b719c68bf4283852cfa1fcb775, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6fe0a83d8eaca6b4082b50972aa67a7b, type: 2}
